@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.8.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-06-19 15:51:53+0000\n"
+"PO-Revision-Date: 2025-06-22 01:59:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1525,7 +1525,7 @@ msgstr "Serif"
 #: wp-includes/fonts.php:275
 msgctxt "font category"
 msgid "Display"
-msgstr "Display"
+msgstr "Hiển thị"
 
 #: wp-includes/fonts.php:271
 msgctxt "font category"
@@ -1992,12 +1992,12 @@ msgstr "Trình giữ chỗ mẫu"
 #: wp-includes/blocks/footnotes/block.json
 msgctxt "block keyword"
 msgid "references"
-msgstr "references"
+msgstr "tham chiếu"
 
 #: wp-includes/blocks/footnotes/block.json
 msgctxt "block title"
 msgid "Footnotes"
-msgstr "Footnotes"
+msgstr "Chú thích cuối trang"
 
 #: wp-includes/blocks/query/block.json
 msgctxt "block keyword"
@@ -2007,7 +2007,7 @@ msgstr "danh sách"
 #: wp-includes/blocks/details/block.json
 msgctxt "block keyword"
 msgid "summary"
-msgstr "summary"
+msgstr "tóm tắt"
 
 #: wp-includes/blocks/details/block.json
 msgctxt "block keyword"
@@ -2032,7 +2032,7 @@ msgstr "Thêm hình ảnh hoặc video có văn bản nằm trên."
 #: wp-includes/blocks/block/block.json
 msgctxt "block keyword"
 msgid "reusable"
-msgstr "reusable"
+msgstr "tái sử dụng"
 
 #: wp-includes/option.php:2939
 msgid "Allow comments on new posts"
@@ -3546,7 +3546,7 @@ msgstr "Hiển thị biểu mẫu bình luận của một bài viết."
 #: wp-includes/blocks/post-comments-form/block.json
 msgctxt "block title"
 msgid "Comments Form"
-msgstr "Form bình luận"
+msgstr "Biểu mẫu bình luận"
 
 #: wp-includes/blocks/pattern/block.json
 msgctxt "block description"
@@ -3641,7 +3641,7 @@ msgstr "Lỗi cơ sở dữ liệu WordPress: Không thể thực hiện truy v�
 #. 'wp-customize-widgets'.
 #: wp-includes/widgets.php:2119
 msgid "\"%1$s\" style should not be enqueued together with the new widgets editor (%2$s or %3$s)."
-msgstr "Style \"%1$s\" không nên được gọi cùng với style cho trình sửa tiện ích (%2$s hoặc %3$s)."
+msgstr "Kiểu \"%1$s\" không nên được xếp hàng cùng với trình chỉnh sửa tiện ích mới (%2$s hoặc %3$s)."
 
 #. translators: 1: 'wp-editor', 2: 'wp-edit-widgets', 3:
 #. 'wp-customize-widgets'.
@@ -3992,7 +3992,7 @@ msgstr "Video"
 #: wp-includes/post.php:3486
 msgctxt "file type group"
 msgid "Audio"
-msgstr "Audio"
+msgstr "Âm thanh"
 
 #: wp-includes/post.php:542
 msgid "Navigation menus that can be inserted into your site."
@@ -4066,7 +4066,7 @@ msgstr "Menu"
 
 #: wp-includes/post.php:480
 msgid "Global styles to include in themes."
-msgstr "Style chung được bao gồm trong giao diện."
+msgstr "Kiểu chung để đưa vào giao diện."
 
 #: wp-includes/post.php:479
 msgctxt "post type general name"
@@ -4468,7 +4468,7 @@ msgstr "Trắng"
 #: wp-includes/theme.json
 msgctxt "Color name"
 msgid "Cyan bluish gray"
-msgstr "Cyan bluish gray"
+msgstr "Xám xanh lơ"
 
 #: wp-includes/theme.json
 msgctxt "Color name"
@@ -4612,7 +4612,7 @@ msgstr "Khối này đã ngừng được phát triển. Thay vào đó, hãy s�
 #: wp-includes/blocks/table/block.json
 msgctxt "block style label"
 msgid "Stripes"
-msgstr "Stripes"
+msgstr "Sọc"
 
 #: wp-includes/blocks/spacer/block.json
 msgctxt "block description"
@@ -4911,7 +4911,7 @@ msgstr "Đặt media và chữ cạnh nhau để bố cục hấp dẫn hơn."
 #: wp-includes/blocks/loginout/block.json
 msgctxt "block keyword"
 msgid "form"
-msgstr "form"
+msgstr "biểu mẫu"
 
 #: wp-includes/blocks/loginout/block.json
 msgctxt "block keyword"
@@ -5015,7 +5015,7 @@ msgstr "Chèn một hình ảnh để trực quan hơn."
 #: wp-includes/blocks/html/block.json
 msgctxt "block keyword"
 msgid "embed"
-msgstr "embed"
+msgstr "nhúng"
 
 #: wp-includes/blocks/html/block.json
 msgctxt "block description"
@@ -5035,7 +5035,7 @@ msgstr "tiêu đề"
 #: wp-includes/blocks/group/block.json
 msgctxt "block keyword"
 msgid "section"
-msgstr "section"
+msgstr "phần"
 
 #: wp-includes/blocks/group/block.json
 msgctxt "block keyword"
@@ -5050,7 +5050,7 @@ msgstr "lớp bao bọc"
 #: wp-includes/blocks/group/block.json
 msgctxt "block keyword"
 msgid "container"
-msgstr "container"
+msgstr "vùng chứa"
 
 #: wp-includes/blocks/gallery/block.json
 msgctxt "block keyword"
@@ -6009,7 +6009,7 @@ msgstr "Bình luận mới nhất"
 #: wp-includes/blocks/media-text/block.json
 msgctxt "block title"
 msgid "Media & Text"
-msgstr "Media và Văn bản"
+msgstr "Phương tiện & Văn bản"
 
 #: wp-includes/blocks/html/block.json
 msgctxt "block title"
@@ -6059,7 +6059,7 @@ msgstr "Nút bấm"
 #: wp-includes/blocks/audio/block.json
 msgctxt "block title"
 msgid "Audio"
-msgstr "Audio"
+msgstr "Âm thanh"
 
 #: wp-includes/blocks/archives/block.json
 msgctxt "block title"
@@ -6203,7 +6203,7 @@ msgstr "Tính theo phần trăm của hình ảnh, vị trí x để bắt đầ
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1544
 msgid "The amount to rotate the image clockwise in degrees. DEPRECATED: Use `modifiers` instead."
-msgstr "The amount to rotate the image clockwise in degrees. DEPRECATED: Use `modifiers` instead."
+msgstr "Số độ xoay ảnh theo chiều kim đồng hồ. KHÔNG DÙNG NỮA: Thay vào đó, hãy dùng `modifiers`."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1533
 msgid "Height of the crop as a percentage of the image height."
@@ -6288,39 +6288,39 @@ msgstr "Xin lỗi, bạn không được phép liệt kê mật khẩu ứng d�
 #. translators: %s: Taxonomy name.
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3293
 msgid "Limit result set to items with specific terms assigned in the %s taxonomy."
-msgstr "Limit result set to items except those with specific terms assigned in the %s taxonomy."
+msgstr "Giới hạn bộ kết quả cho các mục có thuật ngữ cụ thể được chỉ định trong phân loại %s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3280
 msgid "Whether to include child terms in the terms limiting the result set."
-msgstr "Whether to include child terms in the terms limiting the result set."
+msgstr "Có bao gồm các thuật ngữ con trong các thuật ngữ giới hạn bộ kết quả hay không."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3272
 msgid "Term IDs."
-msgstr "Term IDs."
+msgstr "ID của thuật ngữ."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3268
 msgid "Perform an advanced term query."
-msgstr "Perform an advanced term query."
+msgstr "Thực hiện một truy vấn thuật ngữ nâng cao."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3267
 msgid "Term ID Taxonomy Query"
-msgstr "Term ID Taxonomy Query"
+msgstr "Truy vấn Phân loại theo ID Thuật ngữ"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3260
 msgid "Match terms with the listed IDs."
-msgstr "Match terms with the listed IDs."
+msgstr "Khớp các thuật ngữ với các ID được liệt kê."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3259
 msgid "Term ID List"
-msgstr "Term ID List"
+msgstr "Danh sách ID Thuật ngữ"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2947
 msgid "Limit response to posts modified before a given ISO8601 compliant date."
-msgstr "Limit response to posts modified before a given ISO8601 compliant date."
+msgstr "Giới hạn phản hồi cho các bài viết được sửa đổi trước một ngày tuân thủ ISO8601 đã cho."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2916
 msgid "Limit response to posts modified after a given ISO8601 compliant date."
-msgstr "Limit response to posts modified after a given ISO8601 compliant date."
+msgstr "Giới hạn phản hồi cho các bài viết được sửa đổi sau một ngày tuân thủ ISO8601 đã cho."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:632
 msgid "A named status for the theme."
@@ -6377,7 +6377,7 @@ msgstr "Giao diện"
 #: wp-includes/ms-functions.php:1818
 msgctxt "email \"From\" field"
 msgid "Site Admin"
-msgstr "Site Admin"
+msgstr "Quản trị trang"
 
 #. translators: New site notification email. 1: User login, 2: Site URL, 3:
 #. Site title.
@@ -6580,7 +6580,7 @@ msgstr "Không thể phân tích đường dẫn."
 
 #: wp-includes/rest-api/class-wp-rest-server.php:1108
 msgid "The handler for the route is invalid."
-msgstr "The handler for the route is invalid."
+msgstr "Trình xử lý cho tuyến đường không hợp lệ."
 
 #: wp-includes/theme.php:2723
 msgid "You need to pass an array of post formats."
@@ -6734,7 +6734,7 @@ msgstr "Xin lỗi, bạn không có quyền quản lý plugin toàn mạng lư�
 #. 3: The suggested function name.
 #: wp-includes/rest-api.php:127
 msgid "The REST API route definition for %1$s is missing the required %2$s argument. For REST API routes that are intended to be public, use %3$s as the permission callback."
-msgstr "The REST API route definition for %1$s is missing the required %2$s argument. For REST API routes that are intended to be public, use %3$s as the permission callback."
+msgstr "Định nghĩa tuyến REST API cho %1$s bị thiếu đối số %2$s bắt buộc. Đối với các tuyến REST API dự định công khai, hãy sử dụng %3$s làm lệnh gọi lại cấp phép."
 
 #: wp-includes/post.php:4831
 msgid "Could not update attachment in the database."
@@ -7016,7 +7016,7 @@ msgstr[0] "%1$s phải chứa tối thiểu %2$s mục."
 #. translators: 1: Parameter, 2: The list of allowed types.
 #: wp-includes/rest-api.php:2214 wp-includes/rest-api.php:2811
 msgid "The \"type\" schema keyword for %1$s can only be one of the built-in types: %2$l."
-msgstr "The \"type\" schema keyword for %1$s can only be one of the built-in types: %2$l."
+msgstr "Từ khóa schema \"type\" cho %1$s chỉ có thể là một trong các loại tích hợp sẵn: %2$l."
 
 #. translators: %s: Parameter.
 #: wp-includes/rest-api.php:2192 wp-includes/rest-api.php:2794
@@ -7025,12 +7025,12 @@ msgstr "Từ khóa cho schema \"type\" %s là bắt buộc."
 
 #: wp-includes/rest-api.php:1773
 msgid "Cannot stabilize objects. Convert the object to an array first."
-msgstr "Cannot stabilize objects. Convert the object to an array first."
+msgstr "Không thể ổn định các đối tượng. Hãy chuyển đổi đối tượng thành một mảng trước."
 
 #. translators: 1: Parameter, 2: List of allowed types.
 #: wp-includes/rest-api.php:1711
 msgid "The \"type\" schema keyword for %1$s can only contain the built-in types: %2$l."
-msgstr "The \"type\" schema keyword for %1$s can only contain the built-in types: %2$l."
+msgstr "Từ khóa schema \"type\" cho %1$s chỉ có thể chứa các loại tích hợp sẵn: %2$l."
 
 #. translators: Custom template title in the Site Editor. 1: Template title, 2:
 #. Post type slug.
@@ -7061,7 +7061,7 @@ msgstr "Thông báo này được tạo bởi %s."
 
 #: wp-includes/comment.php:1375 wp-admin/options.php:227
 msgid "Please consider writing more inclusive code."
-msgstr "Please consider writing more inclusive code."
+msgstr "Vui lòng cân nhắc viết mã mang tính bao hàm hơn."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1462
 msgid "URL to the edited image file."
@@ -7376,7 +7376,7 @@ msgstr "Mẫu của giao diện này. Nếu đây là giao diện con, nó dẫn
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:63
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:476
 msgid "The theme's stylesheet. This uniquely identifies the theme."
-msgstr "File style của giao diện. Nó định dạng giao diện là duy nhất."
+msgstr "Bảng định kiểu của giao diện. Phần này xác định duy nhất giao diện."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:96
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:833
@@ -7401,7 +7401,7 @@ msgstr "Danh sách các khối bên trong được sử dụng trong ví dụ."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:443
 msgid "The attributes used in the example."
-msgstr "The attributes used in the example."
+msgstr "Các thuộc tính được sử dụng trong ví dụ."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:438
 msgid "Block example."
@@ -7425,15 +7425,15 @@ msgstr "Chứa phần điều khiển xác định kiểu khối."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:656
 msgid "Inline CSS code that registers the CSS class required for the style."
-msgstr "Inline CSS code that registers the CSS class required for the style."
+msgstr "Mã CSS nội tuyến đăng ký lớp CSS cần thiết cho kiểu."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:652
 msgid "The human-readable label for the style."
-msgstr "Nhãn đọc được cho style."
+msgstr "Nhãn dễ đọc cho phong cách."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:647
 msgid "Unique name identifying the style."
-msgstr "Tên riêng xác định style."
+msgstr "Tên duy nhất xác định phong cách."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:641
 msgid "Block style variations."
@@ -7509,7 +7509,7 @@ msgstr "Tên khối."
 
 #: wp-includes/meta.php:1528
 msgid "When registering a default meta value the data must match the type provided."
-msgstr "When registering a default meta value the data must match the type provided."
+msgstr "Khi đăng ký một giá trị meta mặc định, dữ liệu phải khớp với loại đã cung cấp."
 
 #: wp-includes/widgets/class-wp-widget-rss.php:129
 msgid "RSS Feed"
@@ -7521,23 +7521,23 @@ msgstr "Loại post type hỗ trợ ảnh thumbnail hoặc true nếu tất cả
 
 #: wp-includes/theme.php:3345
 msgid "When registering an \"object\" feature, the feature's schema must include the \"properties\" keyword."
-msgstr "When registering an \"object\" feature, the feature's schema must include the \"properties\" keyword."
+msgstr "Khi đăng ký một tính năng \"object\", schema của tính năng phải bao gồm từ khóa \"properties\"."
 
 #: wp-includes/theme.php:3338
 msgid "When registering an \"array\" feature, the feature's schema must include the \"items\" keyword."
-msgstr "When registering an \"array\" feature, the feature's schema must include the \"items\" keyword."
+msgstr "Khi đăng ký một tính năng \"array\", schema của tính năng phải bao gồm từ khóa \"items\"."
 
 #: wp-includes/theme.php:3331
 msgid "When registering an \"array\" or \"object\" feature to show in the REST API, the feature's schema must also be defined."
-msgstr "When registering an \"array\" or \"object\" feature to show in the REST API, the feature's schema must also be defined."
+msgstr "Khi đăng ký một tính năng \"array\" hoặc \"object\" để hiển thị trong REST API, schema của tính năng cũng phải được định nghĩa."
 
 #: wp-includes/theme.php:3323
 msgid "When registering a \"variadic\" theme feature, the \"type\" must be an \"array\"."
-msgstr "When registering a \"variadic\" theme feature, the \"type\" must be an \"array\"."
+msgstr "Khi đăng ký một tính năng theme \"variadic\", \"type\" phải là một \"array\"."
 
 #: wp-includes/theme.php:3316
 msgid "The feature \"type\" is not valid JSON Schema type."
-msgstr "The feature \"type\" is not valid JSON Schema type."
+msgstr "Tính năng \"type\" không phải là một loại JSON Schema hợp lệ."
 
 #. translators: %s: Theme name.
 #: wp-includes/theme.php:999
@@ -7715,7 +7715,7 @@ msgstr "Khi đăng ký loại một loại meta \"array\" để hiển thị tro
 
 #: wp-includes/user.php:4121
 msgid "User&#8217;s Session Tokens data."
-msgstr "User&#8217;s Session Tokens data."
+msgstr "Dữ liệu mã phiên của người dùng."
 
 #: wp-includes/user.php:4120
 msgid "Session Tokens"
@@ -7806,7 +7806,7 @@ msgstr "Liệu chủ đề có thể quản lý thẻ tiêu đề tài liệu ha
 
 #: wp-includes/theme.php:4267
 msgid "Allows use of HTML5 markup for search forms, comment forms, comment lists, gallery, and caption."
-msgstr "Cho phép sử dụng mã HTML5 cho các form tìm kiếm, form bình luận, danh sách bình luận, thư viện hình ảnh và chú thích."
+msgstr "Cho phép sử dụng đánh dấu HTML5 cho biểu mẫu tìm kiếm, biểu mẫu bình luận, danh sách bình luận, thư viện và chú thích."
 
 #: wp-includes/theme.php:4259
 msgid "Whether theme opts in to the editor styles CSS wrapper."
@@ -7983,7 +7983,7 @@ msgstr "Bài viết"
 #. translators: 1: UTC abbreviation and offset, 2: UTC offset.
 #: wp-includes/customize/class-wp-customize-date-time-control.php:287
 msgid "Your timezone is set to %1$s (Coordinated Universal Time %2$s)."
-msgstr "Múi giờ của bạn được đặt thành %1$s (Coordinated Universal Time %2$s)."
+msgstr "Múi giờ của bạn được đặt thành %1$s (Giờ Phối hợp Quốc tế %2$s)."
 
 #. translators: 1: Timezone name, 2: Timezone abbreviation, 3: UTC abbreviation
 #. and offset, 4: UTC offset.
@@ -8431,7 +8431,7 @@ msgstr "Lỗi không phải do plugin hoặc giao diện."
 #. translators: %s: Site title.
 #: wp-includes/class-wp-recovery-mode-email-service.php:200
 msgid "[%s] Your Site is Experiencing a Technical Issue"
-msgstr "[%s] Site của bạn gặp lỗi kĩ thuật"
+msgstr "[%s] Trang web của bạn đang gặp sự cố kỹ thuật"
 
 #: wp-includes/class-wp-recovery-mode-email-service.php:126
 msgid "Error Details"
@@ -8628,7 +8628,7 @@ msgstr "Trang web chưa được khởi tạo."
 #. translators: %d: Site ID.
 #: wp-includes/ms-site.php:679
 msgid "Site %d"
-msgstr "Site %d"
+msgstr "Trang %d"
 
 #: wp-includes/ms-site.php:666
 msgid "The site appears to be already initialized."
@@ -8652,7 +8652,7 @@ msgstr "Site network ID phải được cung cấp."
 
 #: wp-includes/ms-site.php:583
 msgid "Site path must not be empty."
-msgstr "Đường dẫn site không thể bỏ trống."
+msgstr "Đường dẫn đến trang web không được để trống."
 
 #: wp-includes/ms-site.php:578
 msgid "Site domain must not be empty."
@@ -8660,11 +8660,11 @@ msgstr "Tên miền không thể bỏ trống."
 
 #: wp-includes/ms-site.php:271
 msgid "Could not delete site from the database."
-msgstr "Không thể xóa site trong cơ sở dữ liệu."
+msgstr "Không thể xóa trang web khỏi cơ sở dữ liệu."
 
 #: wp-includes/ms-site.php:182
 msgid "Could not update site in the database."
-msgstr "Không thể cập nhật site trong cơ sở dữ liệu."
+msgstr "Không thể cập nhật trang web trong cơ sở dữ liệu."
 
 #: wp-includes/ms-site.php:168 wp-includes/ms-site.php:221
 msgid "Site does not exist."
@@ -8673,20 +8673,20 @@ msgstr "Site không tồn tại."
 #: wp-includes/ms-site.php:163 wp-includes/ms-site.php:216
 #: wp-includes/ms-site.php:657 wp-includes/ms-site.php:788
 msgid "Site ID must not be empty."
-msgstr "Mã ID Site không được bỏ trống."
+msgstr "ID trang web không được để trống."
 
 #: wp-includes/ms-site.php:69
 msgid "Could not insert site into the database."
-msgstr "Không thể nhập site vào cơ sở dữ liệu."
+msgstr "Không thể chèn trang web vào cơ sở dữ liệu."
 
 #: wp-includes/ms-functions.php:2178
 msgid "Unable to submit this form, please try again."
-msgstr "Không thể gửi form này, vui lòng thử lại."
+msgstr "Không thể gửi biểu mẫu này, vui lòng thử lại."
 
 #: wp-includes/taxonomy.php:177
 msgctxt "post format"
 msgid "Formats"
-msgstr "Format"
+msgstr "Định dạng"
 
 #. translators: Used to join items in a list with more than 2 items.
 #: wp-includes/formatting.php:5333
@@ -8734,7 +8734,7 @@ msgstr "Giao diện này không tải đúng cách và đã bị tạm dừng tr
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:432
 msgid "Whether to show the taxonomy in the quick/bulk edit panel."
-msgstr "Whether to show the taxonomy in the quick/bulk edit panel."
+msgstr "Hiển thị chuyên mục trong bảng chỉnh sửa nhanh/hàng loạt."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:428
 msgid "Whether to make the taxonomy available for selection in navigation menus."
@@ -8742,19 +8742,19 @@ msgstr "Cho phép taxonomy có sẵn để lựa chọn trong menu."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:424
 msgid "Whether to allow automatic creation of taxonomy columns on associated post-types table."
-msgstr "Whether to allow automatic creation of taxonomy columns on associated post-types table."
+msgstr "Cho phép tự động tạo cột phân loại trên bảng các loại bài đăng được liên kết."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:420
 msgid "Whether to generate a default UI for managing this taxonomy."
-msgstr "Whether to generate a default UI for managing this taxonomy."
+msgstr "Tạo giao diện người dùng mặc định để quản lý phân loại này."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:416
 msgid "Whether the taxonomy is publicly queryable."
-msgstr "Whether the taxonomy is publicly queryable."
+msgstr "Phân loại có thể được truy vấn công khai không."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:412
 msgid "Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
-msgstr "Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
+msgstr "Một phân loại có được dự định sử dụng công khai qua giao diện quản trị hoặc bởi người dùng cuối hay không."
 
 #: wp-includes/user.php:3012 wp-includes/user.php:3191
 #: wp-includes/user.php:3245
@@ -9000,7 +9000,7 @@ msgstr "Giới hạn kết quả theo các item của một kiểu đối tượ
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:283
 msgid "Object subtype."
-msgstr "Object subtype."
+msgstr "Kiểu con của đối tượng."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:276
 msgid "Object type."
@@ -9337,7 +9337,7 @@ msgstr "Người dùng WordPress"
 
 #: wp-includes/media.php:5584
 msgid "WordPress Media"
-msgstr "WordPress Media"
+msgstr "Thư viện WordPress"
 
 #: wp-includes/block-template-utils.php:200 wp-admin/includes/upgrade.php:397
 #: wp-admin/options-privacy.php:90
@@ -10118,15 +10118,15 @@ msgstr ""
 #. translators: %s: register_routes()
 #: wp-includes/rest-api/endpoints/class-wp-rest-controller.php:53
 msgid "Method '%s' must be overridden."
-msgstr "Method '%s' must be overridden."
+msgstr "Phương thức '%s' phải được ghi đè."
 
 #: wp-includes/post.php:250
 msgid "oEmbed Response"
-msgstr "Phản hồi oEmbed"
+msgstr "oPhản hồi nhúng"
 
 #: wp-includes/post.php:249
 msgid "oEmbed Responses"
-msgstr "Phản hồi oEmbed"
+msgstr "oNhúng Phản hồi"
 
 #. translators: %s: Post custom field name.
 #: wp-includes/post-template.php:1142
@@ -10632,7 +10632,7 @@ msgstr "Thêm ảnh"
 #: wp-includes/widgets/class-wp-widget-media-audio.php:39
 msgctxt "label for button in the audio widget"
 msgid "Add Audio"
-msgstr "Thêm tệp Audio"
+msgstr "Thêm âm thanh"
 
 #: wp-includes/media.php:4550
 #: wp-admin/includes/class-wp-media-list-table.php:520
@@ -10791,7 +10791,7 @@ msgstr "Không thể xem trước media vì lỗi không xác định."
 #. translators: %s: Audio extension.
 #: wp-includes/widgets/class-wp-widget-media-audio.php:87
 msgid "URL to the %s audio source file"
-msgstr "URL tới tệp tin audio %s"
+msgstr "URL đến tệp nguồn âm thanh %s"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:50
 msgid "Looks like this is not the correct kind of file. Please link to an audio file instead."
@@ -10799,32 +10799,32 @@ msgstr "Có vẻ như đây không phải là loại tệp đúng. Vui lòng li�
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:49
 msgid "Audio Widget"
-msgstr "Tiện ích Audio"
+msgstr "Tiện ích âm thanh"
 
 #. translators: %d: Widget count.
 #: wp-includes/widgets/class-wp-widget-media-audio.php:48
 msgid "Audio Widget (%d)"
 msgid_plural "Audio Widget (%d)"
-msgstr[0] "Tiện ích Audio (%d)"
+msgstr[0] "Tiện ích âm thanh (%d)"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:41
 msgctxt "label for button in the audio widget; should preferably not be longer than ~13 characters long"
 msgid "Edit Audio"
-msgstr "Sửa Audio"
+msgstr "Chỉnh sửa âm thanh"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:40
 msgctxt "label for button in the audio widget; should preferably not be longer than ~13 characters long"
 msgid "Replace Audio"
-msgstr "Thay Audio"
+msgstr "Thay thế âm thanh"
 
 #: wp-includes/customize/class-wp-customize-media-control.php:241
 #: wp-includes/widgets/class-wp-widget-media-audio.php:38
 msgid "No audio selected"
-msgstr "Không có audio nào được chọn"
+msgstr "Không có âm thanh nào được chọn"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:30
 msgid "Displays an audio player."
-msgstr "Hiển thị trình chơi audio."
+msgstr "Hiển thị trình phát âm thanh."
 
 #. translators: 1: Parameter, 2: Maximum number.
 #: wp-includes/rest-api.php:2589
@@ -10919,7 +10919,7 @@ msgstr "Ảnh đại diện"
 #. translators: 1: $sanitize_callback, 2: register_setting()
 #: wp-includes/option.php:3139
 msgid "%1$s is deprecated. The callback from %2$s is used instead."
-msgstr "%1$s không còn được hỗ trợ. Sử dụng callback từ %2$s để thay thế."
+msgstr "%1$s đã lỗi thời. Lệnh gọi lại từ %2$s được sử dụng thay thế."
 
 #: wp-includes/media.php:4994
 msgid ""
@@ -10952,11 +10952,11 @@ msgstr "Xin lỗi, không thể bình luận cho mục này."
 
 #: wp-includes/class-wp-oembed-controller.php:150
 msgid "Sorry, you are not allowed to make proxied oEmbed requests."
-msgstr "Xin lỗi, bạn không được phép thực hiện những yêu cầu nhúng oEmbed chuyển hướng."
+msgstr "Xin lỗi, bạn không được phép thực hiện yêu cầu oEmbed được ủy quyền."
 
 #: wp-includes/class-wp-oembed-controller.php:99
 msgid "Whether to perform an oEmbed discovery request for unsanctioned providers."
-msgstr "Có thực hiện những yêu cầu nhúng oEmbed từ những nhà cũng cấp chưa được xác thực hay không."
+msgstr "Có nên thực hiện yêu cầu khám phá oEmbed cho các nhà cung cấp chưa được cấp phép hay không."
 
 #: wp-includes/class-wp-oembed-controller.php:94
 msgid "The maximum height of the embed frame in pixels."
@@ -10968,12 +10968,12 @@ msgstr "Chiều rộng tối đa của khung nhúng tính bằng đơn vị pixe
 
 #: wp-includes/class-wp-oembed-controller.php:79
 msgid "The oEmbed format to use."
-msgstr "Định dạng oEmbed để sử dụng."
+msgstr "Định dạng oEmbed cần sử dụng."
 
 #: wp-includes/class-wp-oembed-controller.php:45
 #: wp-includes/class-wp-oembed-controller.php:73
 msgid "The URL of the resource for which to fetch oEmbed data."
-msgstr "URL của tài nguyên để lấy dữ liệu oEmbed."
+msgstr "URL của tài nguyên cần lấy dữ liệu oEmbed."
 
 #: wp-includes/class-wp-editor.php:1283
 msgctxt "Short for blue in RGB"
@@ -11292,7 +11292,7 @@ msgstr "Bình luận không hợp lệ"
 
 #: wp-includes/rest-api/class-wp-rest-server.php:361
 msgid "Invalid JSONP callback function."
-msgstr "Hàm callback JSONP không hợp lệ."
+msgstr "Hàm gọi lại JSONP không hợp lệ."
 
 #: wp-includes/post.php:4990
 msgid "Invalid page template."
@@ -11629,7 +11629,7 @@ msgstr "Xem trước tài liệu"
 
 #: wp-includes/class-wp-customize-manager.php:5340
 msgid "Header Media"
-msgstr "Header Media"
+msgstr "Media đầu trang"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:394
 msgid "REST base route for the taxonomy."
@@ -11670,12 +11670,12 @@ msgstr "Vui lòng nhập đường dẫn Youtube hợp lệ."
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:936
 msgid "Users do not support trashing. Set '%s' to delete."
-msgstr "Users do not support trashing. Set '%s' to delete."
+msgstr "Người dùng không hỗ trợ chuyển vào thùng rác. Đặt '%s' để xóa."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:779
 msgid "Terms do not support trashing. Set '%s' to delete."
-msgstr "Terms do not support trashing. Set '%s' to delete."
+msgstr "Các thuật ngữ không hỗ trợ chuyển vào thùng rác. Đặt '%s' để xóa."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:497
@@ -11685,7 +11685,7 @@ msgstr "Bản thảo không hỗ trợ xóa. Bật '%s' để xóa."
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1138
 msgid "The post does not support trashing. Set '%s' to delete."
-msgstr "The post does not support trashing. Set '%s' to delete."
+msgstr "Bài viết không hỗ trợ chuyển vào thùng rác. Đặt '%s' để xóa."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1000
@@ -11931,7 +11931,7 @@ msgstr "Giới hạn kết quả gồm những bài viết được ghim."
 #. translators: %s: Taxonomy name.
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3308
 msgid "Limit result set to items except those with specific terms assigned in the %s taxonomy."
-msgstr "Limit result set to items except those with specific terms assigned in the %s taxonomy."
+msgstr "Giới hạn bộ kết quả cho các mục ngoại trừ những mục có thuật ngữ cụ thể được gán trong phân loại %s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3029
 msgid "Limit result set to all items except those of a particular parent ID."
@@ -12492,7 +12492,7 @@ msgstr "Không tìm thấy tập hợp các thay đổi."
 
 #: wp-includes/post.php:211
 msgid "Search Changesets"
-msgstr "Tìm kiếm Changesets."
+msgstr "Tìm kiếm Thay đổi"
 
 #: wp-includes/post.php:210
 msgid "All Changesets"
@@ -12508,17 +12508,17 @@ msgstr "Chỉnh sửa thiết lập thay đổi."
 
 #: wp-includes/post.php:207
 msgid "New Changeset"
-msgstr "Changeset mới"
+msgstr "Thay đổi mới"
 
 #: wp-includes/post.php:204
 msgctxt "post type singular name"
 msgid "Changeset"
-msgstr "Changeset"
+msgstr "Bộ thay đổi"
 
 #: wp-includes/post.php:203
 msgctxt "post type general name"
 msgid "Changesets"
-msgstr "Changesets"
+msgstr "Các bộ thay đổi"
 
 #: wp-includes/post.php:171 wp-includes/post.php:172
 msgid "Custom CSS"
@@ -12875,11 +12875,11 @@ msgstr "Đường dẫn này không thể được xem trước một cách tr�
 
 #: wp-includes/class-wp-customize-manager.php:561
 msgid "Non-existent changeset UUID."
-msgstr "Không tồn tại changeset UUID."
+msgstr "UUID tập thay đổi không tồn tại."
 
 #: wp-includes/class-wp-customize-manager.php:534
 msgid "Invalid changeset UUID"
-msgstr "Changeset UUID không hợp lệ."
+msgstr "UUID tập thay đổi không hợp lệ"
 
 #: wp-includes/class-wp-customize-control.php:645
 msgid "New page title"
@@ -12929,7 +12929,7 @@ msgstr "Âm lượng Trình chiếu"
 
 #: wp-includes/script-loader.php:1106
 msgid "Audio Player"
-msgstr "Trình chơi Audio"
+msgstr "Trình phát âm thanh"
 
 #: wp-includes/script-loader.php:1105
 msgid "Video Player"
@@ -13326,7 +13326,7 @@ msgstr "Được chấp thuận"
 #: wp-includes/class-wp-theme.php:398
 #: wp-admin/includes/class-theme-upgrader.php:632
 msgid "Template is missing. Standalone themes need to have a %1$s or %2$s template file. <a href=\"%3$s\">Child themes</a> need to have a %4$s header in the %5$s stylesheet."
-msgstr "Template bị thiếu. Giao diện độc lập cần có một file template %1$s hoặc %2$s. <a href=\"%3$s\">Giao diện con</a> cần có một %4$s header trong stylesheet %5$s."
+msgstr "Mẫu bị thiếu. Các chủ đề độc lập cần có tệp mẫu %1$s hoặc %2$s. <a href=\"%3$s\">Chủ đề con</a> cần có tiêu đề %4$s trong bảng định kiểu %5$s."
 
 #: wp-includes/class-wp-metadata-lazyloader.php:82
 #: wp-includes/class-wp-metadata-lazyloader.php:122
@@ -13924,7 +13924,7 @@ msgstr "Nhúng HTML"
 
 #: wp-includes/embed.php:1185
 msgid "WordPress Embed"
-msgstr "WordPress Embed"
+msgstr "Nhúng WordPress"
 
 #: wp-includes/embed.php:1157
 msgid "Open sharing dialog"
@@ -14303,7 +14303,7 @@ msgstr "Loại bỏ nguồn video"
 
 #: wp-includes/media-template.php:1324 wp-includes/media-template.php:1339
 msgid "Remove audio source"
-msgstr "Loại bỏ nguồn audio"
+msgstr "Xóa nguồn âm thanh"
 
 #: wp-includes/formatting.php:129
 msgctxt "Comma-separated list of replacement words in your language"
@@ -14959,7 +14959,7 @@ msgstr "Tán gẫu"
 #: wp-includes/general-template.php:1754
 msgctxt "post format archive title"
 msgid "Audio"
-msgstr "Audio"
+msgstr "Âm thanh"
 
 #: wp-includes/general-template.php:1752
 msgctxt "post format archive title"
@@ -15314,23 +15314,23 @@ msgstr "Thêm vào Danh sách nhạc"
 
 #: wp-includes/media.php:5070
 msgid "Add to audio playlist"
-msgstr "Thêm vào danh sách audio"
+msgstr "Thêm vào danh sách phát âm thanh"
 
 #: wp-includes/media.php:5069
 msgid "Update audio playlist"
-msgstr "Cập nhật danh sách audio"
+msgstr "Cập nhật danh sách phát âm thanh"
 
 #: wp-includes/media.php:5068
 msgid "Insert audio playlist"
-msgstr "Chèn danh sách audio"
+msgstr "Chèn danh sách phát âm thanh"
 
 #: wp-includes/media.php:5067
 msgid "&#8592; Cancel audio playlist"
-msgstr "&#8592; Hủy Danh sách audio"
+msgstr "&#8592; Hủy danh sách phát âm thanh"
 
 #: wp-includes/media.php:5066
 msgid "Edit audio playlist"
-msgstr "Sửa Danh sách Audio"
+msgstr "Chỉnh sửa danh sách phát âm thanh"
 
 #: wp-includes/media.php:5047
 msgid "There has been an error cropping your image."
@@ -15596,12 +15596,12 @@ msgstr "Phải sang trái"
 #: wp-includes/class-wp-editor.php:1207
 msgctxt "Link anchors (TinyMCE)"
 msgid "Anchors"
-msgstr "Anchors"
+msgstr "Các neo"
 
 #: wp-includes/class-wp-editor.php:1206
 msgctxt "Link anchor (TinyMCE)"
 msgid "Anchor"
-msgstr "Anchor"
+msgstr "Neo"
 
 #: wp-includes/class-wp-editor.php:1205
 msgctxt "Name of link anchor (TinyMCE)"
@@ -15729,7 +15729,7 @@ msgstr "Kéo và thả để sắp xếp lại danh sách video"
 
 #: wp-includes/media.php:5065
 msgid "Create audio playlist"
-msgstr "Tạo Danh sách Audio"
+msgstr "Tạo danh sách phát âm thanh"
 
 #: wp-includes/media.php:5064
 msgid "Drag and drop to reorder tracks."
@@ -15753,15 +15753,15 @@ msgstr "Chi tiết video"
 
 #: wp-includes/media.php:5052
 msgid "Add audio source"
-msgstr "Thêm nguồn audio"
+msgstr "Thêm nguồn âm thanh"
 
 #: wp-includes/media.php:5051
 msgid "Replace audio"
-msgstr "Thay thế Audio"
+msgstr "Thay thế âm thanh"
 
 #: wp-includes/media.php:5050
 msgid "Audio details"
-msgstr "Chi tiết Audio"
+msgstr "Chi tiết âm thanh"
 
 #: wp-includes/media.php:5043
 msgid "Crop your image"
@@ -15837,7 +15837,7 @@ msgstr "Phát tự động"
 #: wp-includes/js/dist/block-library.js:65266
 #: wp-admin/includes/meta-boxes.php:1594
 msgid "Metadata"
-msgstr "Metadata"
+msgstr "Siêu dữ liệu"
 
 #: wp-includes/media-template.php:1049
 msgid "Show Images"
@@ -16005,7 +16005,7 @@ msgstr "Chèn ảnh"
 
 #: wp-includes/class-wp-editor.php:1231 wp-includes/js/dist/components.js:40824
 msgid "Style"
-msgstr "Style"
+msgstr "Kiểu"
 
 #: wp-includes/class-wp-editor.php:1259
 msgid "Horizontal line"
@@ -16265,7 +16265,7 @@ msgstr "Đăng nhập, RSS, &amp; liên kết WordPress.org."
 
 #: wp-includes/widgets/class-wp-widget-archives.php:27
 msgid "A monthly archive of your site&#8217;s Posts."
-msgstr "Lưu trữ hàng tháng các bài viết trên site của bạn."
+msgstr "Lưu trữ hàng tháng các bài đăng trên trang web của bạn."
 
 #: wp-includes/widgets/class-wp-widget-search.php:27
 msgid "A search form for your site."
@@ -16478,7 +16478,7 @@ msgstr "<strong>Lỗi:</strong> Không thể đăng ký bạn… vui lòng liên
 
 #: wp-includes/post-template.php:311
 msgid "(more&hellip;)"
-msgstr "(more&hellip;)"
+msgstr "(xem thêm&hellip;)"
 
 #. translators: %s: Site address.
 #: wp-signup.php:1026
@@ -16527,7 +16527,7 @@ msgstr "Không tìm thấy thẻ đánh dấu nào."
 #. translators: 1: Script name, 2: wp_enqueue_scripts
 #: wp-includes/functions.wp-scripts.php:318
 msgid "Do not deregister the %1$s script in the administration area. To target the front-end theme, use the %2$s hook."
-msgstr "Do not deregister the %1$s script in the administration area. To target the front-end theme, use the %2$s hook."
+msgstr "Không hủy đăng ký script %1$s trong khu vực quản trị. Để nhắm đến giao diện người dùng, hãy sử dụng hook %2$s."
 
 #: wp-includes/class-wp-xmlrpc-server.php:547 wp-admin/options-general.php:246
 #: wp-admin/network/site-info.php:177 wp-admin/network/site-info.php:185
@@ -16633,11 +16633,11 @@ msgstr "Video"
 #: wp-includes/post.php:3489
 msgid "Audio <span class=\"count\">(%s)</span>"
 msgid_plural "Audio <span class=\"count\">(%s)</span>"
-msgstr[0] "Audio <span class=\"count\">(%s)</span>"
+msgstr[0] "Âm thanh <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:3487
 msgid "Manage Audio"
-msgstr "Quản lý Audio"
+msgstr "Quản lý âm thanh"
 
 #. translators: %s: Number of images.
 #: wp-includes/post.php:3480
@@ -16662,7 +16662,7 @@ msgstr "Chèn vào trang"
 #: wp-includes/js/dist/block-library.js:48851
 #: wp-includes/js/dist/editor.js:10534 wp-includes/js/dist/editor.js:21627
 msgid "Audio"
-msgstr "Audio"
+msgstr "Âm thanh"
 
 #: wp-includes/class-wp-post-type.php:1006
 msgid "Uploaded to this post"
@@ -17804,7 +17804,7 @@ msgstr "tên miền"
 #: wp-includes/post-formats.php:107
 msgctxt "Post format"
 msgid "Audio"
-msgstr "Audio"
+msgstr "Âm thanh"
 
 #: wp-includes/class-wp-xmlrpc-server.php:5440
 #: wp-includes/class-wp-xmlrpc-server.php:5812
@@ -17856,7 +17856,7 @@ msgstr "Thư viện ảnh"
 #: wp-includes/post-formats.php:100
 msgctxt "Post format"
 msgid "Chat"
-msgstr "Chat"
+msgstr "Trò chuyện"
 
 #: wp-includes/post-formats.php:99
 msgctxt "Post format"
@@ -18008,7 +18008,7 @@ msgstr "Người dùng"
 
 #: wp-includes/admin-bar.php:591
 msgid "Network Admin"
-msgstr "Network Admin"
+msgstr "Quản trị mạng"
 
 #. translators: 1: Site link, 2: Search query.
 #: wp-includes/theme-compat/sidebar.php:95
@@ -18528,7 +18528,7 @@ msgstr "Menu"
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:183
 msgid "Taxonomy:"
-msgstr "Taxonomy:"
+msgstr "Phân loại:"
 
 #. translators: %s is the search term.
 #: wp-includes/blocks/query-title.php:46
@@ -18824,7 +18824,7 @@ msgstr "Đăng ký trên web này"
 
 #: wp-login.php:1156
 msgid "Registration Form"
-msgstr "Form đăng ký"
+msgstr "Mẫu đăng ký"
 
 #: wp-login.php:914
 msgid "Get New Password"
@@ -18876,7 +18876,7 @@ msgstr "<strong>Lỗi:</strong> WordPress %1$s yêu cầu MySQL %2$s hoặc cao 
 #. translators: %d: Sidebar number.
 #: wp-includes/widgets.php:190 wp-includes/widgets.php:278
 msgid "Sidebar %d"
-msgstr "Sidebar %d"
+msgstr "Thanh bên %d"
 
 #: wp-includes/functions.php:7489 wp-includes/user.php:351
 msgid "Please log in again."
@@ -18896,7 +18896,7 @@ msgstr "<strong>Lỗi:</strong> Trường tên người dùng đang trống."
 
 #: wp-includes/class-wp-theme.php:311
 msgid "Stylesheet is missing."
-msgstr "Không tìm thấy file style."
+msgstr "Thiếu bảng định dạng."
 
 #. translators: %s: Theme directory name.
 #: wp-includes/class-wp-theme.php:449
@@ -19390,7 +19390,7 @@ msgstr "Tác vụ"
 
 #: wp-includes/class-wp-editor.php:1416
 msgid "Letter"
-msgstr "Letter"
+msgstr "Chữ cái"
 
 #: wp-includes/media-template.php:1271
 #: wp-includes/widgets/class-wp-widget-media-image.php:137

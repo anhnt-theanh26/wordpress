@@ -1,0 +1,43 @@
+/* Mobile (dưới 768px) */
+@media (max-width: 767px) {
+
+    /* section 2 */
+    .st2-text-top p {
+        position: static;
+        color: #FFFB78;
+        font-style: italic;
+        font-size: 30px;
+        text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
+        font-weight: 700;
+    }
+
+    .st2-img-top {
+        display: none;
+    }
+
+    .st2-text-black {
+        font-size: 15px;
+    }
+
+    .st2-voucher-hover p {
+        font-size: 15px;
+    }
+
+    .st3-title-top {
+        position: absolute;
+        color: #FFFB78;
+        font-style: italic;
+        font-size: 23px;
+        text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
+        font-weight: 700;
+        top: 45%;
+        left: 40%;
+    }
+
+}
+
+/* @media (min-width: 550px) and (max-width: 770px) {
+    .st2-voucher-hover p {
+        font-size: 13px;
+    }
+} */

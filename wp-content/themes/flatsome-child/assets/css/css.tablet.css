@@ -1,0 +1,38 @@
+/* Tablet (768px – 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* section 2 */
+    .st2-text-top p {
+        position: absolute;
+        color: #FFFB78;
+        font-style: italic;
+        font-size: 30px;
+        text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
+        font-weight: 700;
+        top: 57%;
+        left: 21%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .st2-text-black {
+        font-size: 15px;
+    }
+
+
+    .st2-voucher-hover p {
+        font-size: 13px;
+    }
+
+    /* section 3 */
+    .st3-title-top {
+        position: absolute;
+        color: #FFFB78;
+        font-style: italic;
+        font-size: 30px;
+        text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
+        font-weight: 700;
+        top: 45%;
+        left: 40%;
+    }
+}

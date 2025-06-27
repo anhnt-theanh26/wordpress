@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.8.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-06-19 15:56:51+0000\n"
+"PO-Revision-Date: 2025-06-22 05:02:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1205,7 +1205,7 @@ msgstr "<strong>Cho mượn</strong> sự sáng tạo của bạn vào thiết k
 
 #: wp-admin/contribute.php:68
 msgid "<strong>Organize</strong> or participate in local Meetups and WordCamps."
-msgstr "<strong>Tổ chức</strong> hoặc tham gia các buổi họp cộng đồng địa phương và WordCamps."
+msgstr "<strong>Tổ chức</strong> hoặc tham gia các buổi gặp gỡ và WordCamp tại địa phương."
 
 #: wp-admin/contribute.php:67
 msgid "<strong>Curate</strong> submissions or take photos for the Photo Directory."
@@ -2527,7 +2527,7 @@ msgstr "Sao chép nội dung chính sách bảo mật vào clipboard"
 
 #: wp-admin/includes/file.php:2018
 msgid "Directory listing failed."
-msgstr "Directory listing failed."
+msgstr "Liệt kê thư mục thất bại."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:105
 #: wp-admin/includes/class-wp-theme-install-list-table.php:61
@@ -4196,11 +4196,11 @@ msgstr "Tất cả các cập nhật tự động bị vô hiệu hóa."
 
 #: wp-admin/includes/class-wp-debug-data.php:1648
 msgid "Database collation"
-msgstr "Database collation"
+msgstr "Đối chiếu cơ sở dữ liệu."
 
 #: wp-admin/includes/class-wp-debug-data.php:1643
 msgid "Database charset"
-msgstr "Database charset"
+msgstr "Bảng mã cơ sở dữ liệu"
 
 #: wp-admin/includes/class-wp-debug-data.php:1416
 msgid "Inactive Themes"
@@ -4214,7 +4214,7 @@ msgstr "Giao diện cha"
 #: wp-admin/includes/class-wp-debug-data.php:331
 #: wp-admin/includes/class-wp-plugins-list-table.php:678
 msgid "Drop-ins are single files, found in the %s directory, that replace or enhance WordPress features in ways that are not possible for traditional plugins."
-msgstr "Drop-in là các file đơn lẻ, được tìm thấy trong thư mục %s, thay thế hoặc nâng cao các tính năng của WordPress theo những cách không thể đối với các plugin truyền thống."
+msgstr "Drop-ins là các tệp đơn lẻ, nằm trong thư mục %s, có chức năng thay thế hoặc nâng cao các tính năng của WordPress theo cách mà các plugin truyền thống không thể thực hiện được."
 
 #. translators: Description for the About section in a personal data export.
 #: wp-admin/includes/privacy-tools.php:370
@@ -4505,12 +4505,12 @@ msgstr "Không thể xác thực %s vì chứng thực chữ ký không có sẵ
 #. translators: %s: Eraser friendly name.
 #: wp-admin/includes/ajax-actions.php:5226
 msgid "Eraser callback is not valid: %s."
-msgstr "Eraser callback is not valid: %s."
+msgstr "Hàm gọi lại của trình xóa không hợp lệ: %s."
 
 #. translators: %s: Eraser friendly name.
 #: wp-admin/includes/ajax-actions.php:5216
 msgid "Eraser does not include a callback: %s."
-msgstr "Eraser does not include a callback: %s."
+msgstr "Trình xóa không có hàm gọi lại: %s."
 
 #: wp-admin/includes/ajax-actions.php:4938
 #: wp-admin/includes/ajax-actions.php:5129
@@ -4750,7 +4750,7 @@ msgstr "Trạng thái HTTPS"
 
 #: wp-admin/includes/class-wp-site-health.php:2722
 msgid "PHP Extensions"
-msgstr "PHP Extensions"
+msgstr "Tiện ích mở rộng PHP"
 
 #: wp-admin/includes/class-wp-site-health.php:2734
 msgid "Database Server version"
@@ -5541,7 +5541,7 @@ msgstr "Giao diện đang kích hoạt"
 
 #: wp-admin/includes/class-wp-debug-data.php:327
 msgid "Drop-ins"
-msgstr "Drop-ins"
+msgstr "Tệp tin thay thế"
 
 #. translators: Filesystem directory paths and storage sizes.
 #: wp-admin/includes/class-wp-debug-data.php:878
@@ -6380,11 +6380,11 @@ msgstr "Xin lỗi, bạn không được phép xuất dữ liệu cá nhân trê
 
 #: wp-admin/includes/ajax-actions.php:5189
 msgid "Eraser index is out of range."
-msgstr "Eraser index is out of range."
+msgstr "Chỉ mục của trình xóa nằm ngoài phạm vi."
 
 #: wp-admin/includes/ajax-actions.php:5148
 msgid "Missing eraser index."
-msgstr "Missing eraser index."
+msgstr "Thiếu chỉ mục của trình xóa."
 
 #. translators: %s: Exporter friendly name.
 #: wp-admin/includes/ajax-actions.php:5073
@@ -6409,12 +6409,12 @@ msgstr "Phản hồi dự kiến ở dạng mảng từ trình xuất dữ liệ
 #. translators: %s: Exporter friendly name.
 #: wp-admin/includes/ajax-actions.php:5038
 msgid "Exporter callback is not a valid callback: %s."
-msgstr "Callback trình xuất dữ liệu không phải là một callback hợp lệ: %s."
+msgstr "Hàm gọi lại của trình xuất không hợp lệ: %s."
 
 #. translators: %s: Exporter friendly name.
 #: wp-admin/includes/ajax-actions.php:5031
 msgid "Exporter does not include a callback: %s."
-msgstr "Trình xuất dữ liệu không bao gồm callback: %s."
+msgstr "Trình xuất không có hàm gọi lại: %s."
 
 #. translators: %s: Exporter array index.
 #: wp-admin/includes/ajax-actions.php:5015
@@ -6423,7 +6423,7 @@ msgstr "Mảng mô tả trình xuất dữ liệu dự kiến tại chỉ số %
 
 #: wp-admin/includes/ajax-actions.php:5001
 msgid "Exporter index is out of range."
-msgstr "Exporter index is out of range."
+msgstr "Chỉ mục của trình xuất nằm ngoài phạm vi."
 
 #: wp-admin/includes/ajax-actions.php:4997
 msgid "Exporter index cannot be negative."
@@ -6639,7 +6639,7 @@ msgstr "Không thể thêm yêu cầu này. Địa chỉ email hoặc tên ngư�
 
 #: wp-admin/includes/privacy-tools.php:91
 msgid "Confirmation request sent again successfully."
-msgstr "Confirmation request sent again successfully."
+msgstr "Yêu cầu xác nhận đã được gửi lại thành công."
 
 #: wp-admin/includes/privacy-tools.php:155
 msgid "Unable to initiate confirmation request."
@@ -6653,42 +6653,42 @@ msgstr "ID yêu cầu không hợp lệ."
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
 #: wp-admin/includes/ajax-actions.php:5298
 msgid "Expected done flag in response array from %1$s eraser (index %2$d)."
-msgstr "Expected done flag in response array from %1$s eraser (index %2$d)."
+msgstr "Cờ `done` được mong đợi trong mảng phản hồi từ trình xóa %1$s (chỉ mục %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
 #: wp-admin/includes/ajax-actions.php:5287
 msgid "Expected messages key to reference an array in response array from %1$s eraser (index %2$d)."
-msgstr "Expected messages key to reference an array in response array from %1$s eraser (index %2$d)."
+msgstr "Khóa `messages` được mong đợi để tham chiếu đến một mảng trong mảng phản hồi từ trình xóa %1$s (chỉ mục %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
 #: wp-admin/includes/ajax-actions.php:5276
 msgid "Expected messages key in response array from %1$s eraser (index %2$d)."
-msgstr "Expected messages key in response array from %1$s eraser (index %2$d)."
+msgstr "Khóa `messages` được mong đợi trong mảng phản hồi từ trình xóa %1$s (chỉ mục %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
 #: wp-admin/includes/ajax-actions.php:5265
 msgid "Expected items_retained key in response array from %1$s eraser (index %2$d)."
-msgstr "Expected items_retained key in response array from %1$s eraser (index %2$d)."
+msgstr "Khóa `items_retained` được mong đợi trong mảng phản hồi từ trình xóa %1$s (chỉ mục %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
 #: wp-admin/includes/ajax-actions.php:5254
 msgid "Expected items_removed key in response array from %1$s eraser (index %2$d)."
-msgstr "Expected items_removed key in response array from %1$s eraser (index %2$d)."
+msgstr "Khóa `items_removed` được mong đợi trong mảng phản hồi từ trình xóa %1$s (chỉ mục %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
 #: wp-admin/includes/ajax-actions.php:5243
 msgid "Did not receive array from %1$s eraser (index %2$d)."
-msgstr "Did not receive array from %1$s eraser (index %2$d)."
+msgstr "Không nhận được mảng từ trình xóa %1$s (chỉ mục %2$d)."
 
 #. translators: %d: Eraser array index.
 #: wp-admin/includes/ajax-actions.php:5207
 msgid "Eraser array at index %d does not include a friendly name."
-msgstr "Eraser array at index %d does not include a friendly name."
+msgstr "Mảng trình xóa tại chỉ mục %d không bao gồm tên thân thiện."
 
 #. translators: %d: Eraser array index.
 #: wp-admin/includes/ajax-actions.php:5202
 msgid "Expected an array describing the eraser at index %d."
-msgstr "Expected an array describing the eraser at index %d."
+msgstr "Một mảng mô tả trình xóa được mong đợi tại chỉ mục %d."
 
 #: wp-admin/includes/ajax-actions.php:5005
 #: wp-admin/includes/ajax-actions.php:5193
@@ -6697,7 +6697,7 @@ msgstr "Chỉ mục trang không thể nhỏ hơn một."
 
 #: wp-admin/includes/ajax-actions.php:5185
 msgid "Eraser index cannot be less than one."
-msgstr "Eraser index cannot be less than one."
+msgstr "Chỉ mục của trình xóa không thể nhỏ hơn một."
 
 #: wp-admin/includes/ajax-actions.php:5144
 msgid "Invalid email address in request."
@@ -7143,7 +7143,7 @@ msgstr "WordCamp"
 
 #: wp-admin/includes/dashboard.php:1312
 msgid "Meetups"
-msgstr "Meetups"
+msgstr "Buổi gặp gỡ"
 
 #: wp-admin/includes/dashboard.php:1354 wp-admin/js/dashboard.js:591
 msgid "An error occurred. Please try again."
@@ -11178,7 +11178,7 @@ msgstr "Tiền Tố Bảng Dữ Liệu"
 
 #: wp-admin/setup-config.php:252
 msgid "Database Host"
-msgstr "Database Host"
+msgstr "Máy chủ cơ sở dữ liệu"
 
 #: wp-admin/setup-config.php:242
 msgctxt "example password"
@@ -11208,7 +11208,7 @@ msgstr "Tiền tố bảng (nếu bạn muốn chạy nhiều hơn một bản W
 
 #: wp-admin/includes/class-wp-debug-data.php:1628 wp-admin/setup-config.php:175
 msgid "Database host"
-msgstr "Địa chỉ máy chủ cơ sở dữ liệu"
+msgstr "Máy chủ cơ sở dữ liệu"
 
 #: wp-admin/setup-config.php:174
 msgid "Database password"
@@ -13377,7 +13377,7 @@ msgstr "Chuyển đến trang quản trị"
 #: wp-admin/includes/class-wp-plugins-list-table.php:549
 msgid "Drop-in <span class=\"count\">(%s)</span>"
 msgid_plural "Drop-ins <span class=\"count\">(%s)</span>"
-msgstr[0] "Drop-in <span class=\"count\">(%s)</span>"
+msgstr[0] "Tệp tin thay thế <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
 #: wp-admin/includes/class-wp-plugins-list-table.php:541
@@ -13450,7 +13450,7 @@ msgstr "Thông báo lỗi database."
 
 #: wp-admin/includes/plugin.php:503
 msgid "Custom database class."
-msgstr "Database class tùy chỉnh."
+msgstr "Lớp cơ sở dữ liệu tùy chỉnh."
 
 #: wp-admin/includes/plugin.php:502
 msgid "Advanced caching plugin."
@@ -14916,7 +14916,7 @@ msgstr "người yêu"
 #. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1457
 msgid "date"
-msgstr "date"
+msgstr "ngày"
 
 #. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1454
@@ -15237,7 +15237,7 @@ msgstr "Ảnh mô tả cho ảnh, ví dụ &#8220;Ảnh của tôi &#8221;"
 
 #: wp-admin/includes/media.php:1289 wp-admin/includes/media.php:1425
 msgid "File URL"
-msgstr "File URL"
+msgstr "URL tập tin"
 
 #: wp-admin/includes/class-wp-debug-data.php:298
 #: wp-admin/includes/class-wp-privacy-policy-content.php:702
