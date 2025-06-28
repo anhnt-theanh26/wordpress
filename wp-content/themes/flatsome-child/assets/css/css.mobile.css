@@ -2,20 +2,16 @@
 @media (max-width: 767px) {
 
     /* section 2 */
-    .st2-text-top p {
-        position: static;
-        color: #FFFB78;
-        font-style: italic;
+    .st2-title-top p {
+        position: sticky !important;
         font-size: 30px;
-        text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
-        font-weight: 700;
     }
 
     .st2-img-top {
         display: none;
     }
 
-    .st2-text-black {
+    .st2-title-black {
         font-size: 15px;
     }
 
@@ -23,15 +19,16 @@
         font-size: 15px;
     }
 
-    .st3-title-top {
-        position: absolute;
-        color: #FFFB78;
-        font-style: italic;
-        font-size: 23px;
-        text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
-        font-weight: 700;
-        top: 45%;
-        left: 40%;
+    .st3-title-top p {
+        position: static !important;
+        font-size: 30px;
+        margin-top: 120px !important;
+    }
+
+    /* section 4 */
+    .st4-title-top-1 p {
+        position: static !important;
+        font-size: 30px;
     }
 
 }
