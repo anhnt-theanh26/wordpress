@@ -27,3 +27,4 @@ add_action('wp_enqueue_scripts', 'load_css');
 
 include 'code/add_shortcode.php';
 include 'code/st3_add_owl_slide.php';
+include 'code/st4_add_table.php';

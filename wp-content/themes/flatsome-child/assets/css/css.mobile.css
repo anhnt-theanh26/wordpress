@@ -31,6 +31,12 @@
         font-size: 30px;
     }
 
+    .st4-title-top-2 p {
+        position: static !important;
+        font-size: 30px;
+        margin-top: -50px;
+    }
+
 }
 
 /* @media (min-width: 550px) and (max-width: 770px) {

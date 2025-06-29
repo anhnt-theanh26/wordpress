@@ -217,6 +217,33 @@ li {
     font-weight: 700;
     top: 55%;
     left: 25%;
-    margin: 0;
-    padding: 0;
+}
+
+.st4-img-top-2 {
+    position: relative;
+}
+
+.st4-title-top-2 p {
+    position: absolute;
+    color: white;
+    font-style: italic;
+    font-size: 37px;
+    text-shadow: -2px -2px 0 #03A9F4, 2px -2px 0 #00b0ff, -2px 2px 0 #03A9F4, 2px 2px 0 #03A9F4;
+    font-weight: 700;
+    top: 8%;
+    left: 36%;
+}
+
+
+.st4_table tr:nth-child(odd) {
+    background-color: white;
+}
+.st4_table tr:nth-child(even) {
+    background-color: #CBE9FF;
+}
+.st4_table {
+    border: 1px solid red;
+}
+.st4_table thead{
+    border: none;
 }
