@@ -200,7 +200,7 @@ li {
 /* top  */
 .st4-bg-img {
     background-image: url('http://landing01.com/wp-content/uploads/2025/06/Group-53-1.png');
-    margin-top: -150px;
+    margin-top: -200px;
     background-size: 100% 100%;
 }
 
@@ -283,6 +283,7 @@ li {
 .st5-bg-img {
     background-image: url('http://landing01.com/wp-content/uploads/2025/06/Vector.png');
     background-size: 100% 100%;
+    margin-top: -1px;
 }
 
 .st5-title-top p {
@@ -314,7 +315,7 @@ li {
     transform: translate(-40%, -50%);
     color: black;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     max-width: 90%;
     white-space: normal;
@@ -349,7 +350,7 @@ li {
     transform: translate(-20%, -50%);
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .tab-content-left-title {
@@ -410,4 +411,7 @@ li {
 }
 .footer-right h5{
     color: black;
+}
+.footer-right-bottom {
+    margin-top: 20px;
 }

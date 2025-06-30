@@ -2,7 +2,7 @@
 
 function st6_add_footer()
 {
-    ?>
+?>
     <div class="row st6_add_footer">
         <div class="col medium-6 small-12 large-5">
             <div class="col-inner footer-left">
@@ -149,24 +149,49 @@ function st6_add_footer()
                     </span>
                 </div>
                 <div class="footer-right-bottom">
-                    <div class="row" id="row-1233621306">
-                        <div id="col-425220425" class="col medium-4 small-4 large-4">
-                            <div class="col-inner">
-                                <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1555009275">
-                                    <div class="img-inner dark">
-                                        <img loading="lazy" decoding="async" width="184" height="50"
-                                            src="http://landing01.com/wp-content/uploads/2025/06/bkns-logo-2019-1.png.webp"
+                    <div class="row">
+                        <div class="col medium-4 small-4 large-4" style="border: 1px solid black;">
+                            <div class="col-inner" style="border: 1px solid white;">
+                                <div class="img has-hover x md-x lg-x y md-y lg-y" style="border: 1px solid red;">
+                                    <div class="img-inner dark" style="border: 1px solid yellow;">
+                                        <img loading="lazy" decoding="async" width="184" height="50" style="border: 1px solid green;"
+                                            src="http://landing01.com/wp-content/uploads/2025/06/logoSaleNoti.png.webp"
                                             class="attachment-large size-large" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="col-1831028029" class="col medium-4 small-4 large-4">
-                            <div class="col-inner">
+                         <div class="col medium-4 small-4 large-4" style="border: 1px solid black;">
+                            <div class="col-inner" style="border: 1px solid white;">
+                                <div class="img has-hover x md-x lg-x y md-y lg-y" style="border: 1px solid red;">
+                                    <div class="img-inner dark" style="border: 1px solid yellow;">
+                                        <img loading="lazy" decoding="async" width="184" height="50" style="border: 1px solid green;"
+                                            src="http://landing01.com/wp-content/uploads/2025/06/ipv6_ready_logo-removebg-preview-1.png.webp"
+                                            class="attachment-large size-large" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div id="col-324838661" class="col medium-4 small-4 large-4">
-                            <div class="col-inner">
+                         <div class="col medium-4 small-4 large-4" style="border: 1px solid black;">
+                            <div class="col-inner" style="border: 1px solid white;">
+                                <div class="img has-hover x md-x lg-x y md-y lg-y" style="border: 1px solid red;">
+                                    <div class="img-inner dark" style="border: 1px solid yellow;">
+                                        <img loading="lazy" decoding="async" width="184" height="50" style="border: 1px solid green;"
+                                            src="http://landing01.com/wp-content/uploads/2025/06/tín-nghiệm-2.png.webp"
+                                            class="attachment-large size-large" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col medium-4 small-4 large-4" style="border: 1px solid black;">
+                            <div class="col-inner" style="border: 1px solid white;">
+                                <div class="img has-hover x md-x lg-x y md-y lg-y" style="border: 1px solid red;">
+                                    <div class="img-inner dark" style="border: 1px solid yellow;">
+                                        <img loading="lazy" decoding="async" width="184" height="50" style="border: 1px solid green;"
+                                            src="http://landing01.com/wp-content/uploads/2025/06/Screenshot_1.png.webp"
+                                            class="attachment-large size-large" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -174,7 +199,7 @@ function st6_add_footer()
             </div>
         </div>
     </div>
-    <?php
+<?php
 }
 
 add_shortcode('st6_add_footer', 'st6_add_footer');

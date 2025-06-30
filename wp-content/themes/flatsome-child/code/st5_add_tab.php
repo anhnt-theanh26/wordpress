@@ -44,15 +44,15 @@ function st5_add_tab()
                         <div class="">
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>2 năm tặng 10 tháng</p>
+                                <p>1 năm Tặng 5 tháng</p>
                             </div>
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>Hosting Windows</p>
+                                <p>2 năm Tặng 10 tháng</p>
                             </div>
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>Hosting Windows</p>
+                                <p>3 năm Tặng 15 tháng</p>
                             </div>
                             <p class="tab-content-left-title">
                                 *Gia hạn từ gói 03 trở lên
@@ -92,15 +92,15 @@ function st5_add_tab()
                         <div class="">
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>2 năm tặng 10 tháng</p>
+                                <p>22 năm tặng 10 tháng</p>
                             </div>
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>Hosting Windows</p>
+                                <p>Hosting 4 Windows</p>
                             </div>
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>Hosting Windows</p>
+                                <p>Hosting Windows 0</p>
                             </div>
                             <p class="tab-content-left-title">
                                 *Gia hạn từ gói 03 trở lên
@@ -140,15 +140,15 @@ function st5_add_tab()
                         <div class="">
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>2 năm tặng 10 tháng</p>
+                                <p>20 năm tặng 10 tháng</p>
                             </div>
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>Hosting Windows</p>
+                                <p>11 Hosting Windows</p>
                             </div>
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>Hosting Windows</p>
+                                <p>Hosting 22 Windows</p>
                             </div>
                             <p class="tab-content-left-title">
                                 *Gia hạn từ gói 03 trở lên
@@ -188,15 +188,15 @@ function st5_add_tab()
                         <div class="">
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>2 năm tặng 10 tháng</p>
+                                <p>24 năm tặng 105 tháng</p>
                             </div>
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>Hosting Windows</p>
+                                <p>Hosting2 42 Windows</p>
                             </div>
                             <div class="col-inner tab-content-left">
                                 <img src="http://landing01.com/wp-content/uploads/2025/06/Group-46.png" alt="">
-                                <p>Hosting Windows</p>
+                                <p> fww Hosting Windows</p>
                             </div>
                             <p class="tab-content-left-title">
                                 *Gia hạn từ gói 03 trở lên
