@@ -37,6 +37,12 @@
         margin-top: -50px;
     }
 
+    /* section 5 */
+    .st5-title-top p {
+        position: static !important;
+        font-size: 30px;
+    }
+
 }
 
 /* @media (min-width: 550px) and (max-width: 770px) {

@@ -65,7 +65,7 @@ section.bg-change-color {
     font-size: 37px;
     text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
     font-weight: 700;
-    top: 47%;
+    top: 50%;
     left: 43%;
 }
 
@@ -234,16 +234,180 @@ li {
     left: 36%;
 }
 
-
-.st4_table tr:nth-child(odd) {
+.st4-table tr:nth-child(odd) {
     background-color: white;
 }
-.st4_table tr:nth-child(even) {
-    background-color: #CBE9FF;
+
+.st4-table tr:nth-child(even) {
+    background-color: #e4e7ff;
 }
-.st4_table {
-    border: 1px solid red;
+
+.st4-table {
+    background-color: white;
+    border-radius: 30px;
 }
-.st4_table thead{
+
+.st4-table table {
+    padding: 10px;
+}
+
+.st4-table thead {
     border: none;
+}
+
+.st4-table th {
+    width: 50%;
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+.st4-box {
+    background-color: white;
+    border-radius: 30px;
+    text-align: start;
+    padding: 20px 30px 20px 30px;
+    color: black;
+    font-size: 18px;
+}
+
+.st4-box p {
+    margin: 0;
+}
+
+.btn-click-tab {
+    text-align: center;
+}
+
+/* section 5 */
+.st5-bg-img {
+    background-image: url('http://landing01.com/wp-content/uploads/2025/06/Vector.png');
+    background-size: 100% 100%;
+}
+
+.st5-title-top p {
+    position: absolute;
+    color: #FFFB78;
+    font-style: italic;
+    font-size: 37px;
+    text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
+    font-weight: 700;
+    top: 48%;
+    left: 28%;
+}
+
+.st5-tab-item {
+    position: relative;
+    display: inline-block;
+}
+
+.st5-tab-item img {
+    display: block;
+    width: 210px;
+    height: 105px;
+}
+
+.st5-tab-item span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    max-width: 90%;
+    white-space: normal;
+    line-height: 1.4;
+}
+
+.tab-content {
+    display: flex;
+    align-items: center;
+}
+
+/* left  */
+.tab-content-left {
+    position: relative;
+}
+
+
+.tab-content-left {
+    position: relative;
+    display: inline-block;
+}
+
+.tab-content-left img {
+    display: block;
+    width: 100%;
+}
+
+.tab-content-left p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tab-content-left-title {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/* right */
+.tab-content-right h4 {
+    color: #FF6200;
+    font-size: 20px;
+}
+
+.tab-content-right p {
+    font-size: 18px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* section 6  */
+
+.st6-bg-img {
+    background-image: url('http://landing01.com/wp-content/uploads/2025/06/Asset-1@3x-1.png');
+    background-size: 100% 100%;
+}
+
+.st6_add_footer {
+    margin: 50px 0px 50px 0px;
+}
+
+.footer-left p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.footer-left-bootom .col {
+    border: 1px solid black;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.footer-center h3 {
+    color: black;
+}
+
+.footer-center p {
+    color: black;
+    font-size: 15px;
+}
+.footer-right h5{
+    color: black;
 }
