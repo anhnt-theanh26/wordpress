@@ -7,36 +7,26 @@ function st4_add_table()
         <table>
             <tbody>
                 <tr>
-                    <th style="font-size: 25px; color: #FF8B00;" colspan="2">Cấu Hình máy chủ</th>
+                    <th style="font-size: 25px; color: #FF8B00;" colspan="2"><?= get_field('title_1') ?? '' ?></th>
                 </tr>
-                <tr>
-                    <th style="border-right: 1px solid white;">CPU</th>
-                    <th>16 Cores</th>
-                </tr>
-                <tr>
-                    <th style="border-right: 1px solid #e4e7ff;">RAM</th>
-                    <th>16GB + Tặng 16GB</th>
-                </tr>
-                <tr>
-                    <th style="border-right: 1px solid white;">Ổ Cứng</th>
-                    <th>2 x Sas 600GB</th>
-                </tr>
-                <tr>
-                    <th style="border-right: 1px solid #e4e7ff;">Giá/tháng</th>
-                    <th style="color: #00ccff;">1.500.000đ</th>
-                </tr>
-                <tr>
-                    <th style="border-right: 1px solid white;">Thời gian được tặng máy chủ</th>
-                    <th>TẶNG SAU 6T</th>
-                </tr>
-                <tr>
-                    <th style="border-right: 1px solid #e4e7ff;">Số lượng</th>
-                    <th>10 Máy</th>
-                </tr>
+                <?php
+                while (have_rows('table_1', get_queried_object_id())):
+                    the_row();
+                    ?>
+                    <tr>
+                        <th style="border-right: 1px solid white;"><?= get_sub_field('attribute') ?></th>
+                        <th>
+                            <?= get_sub_field('value') ?>
+                            <span style="color: #00ccff;"><?= get_sub_field('value_highlight') ?></span>
+                        </th>
+                    </tr>
+                    <?php
+                endwhile;
+                ?>
             </tbody>
         </table>
     </div>
-    <a target="_blank" href="#">
+    <a target="_blank" href="<?= get_field('link') ?>">
         <button
             style="border: 1px solid white; color: white; border-radius: 50px; background: linear-gradient(to right, #00E0FF, #005CFF);">
             ĐĂNG KÝ NGAY
@@ -44,21 +34,17 @@ function st4_add_table()
     </a>
     <div class="st4-box">
         <p>
-            Ngoài ra, các khách hàng có đơn hàng thuê server các dòng Dell r620, r630, r720, r730, r640 đều được tặng thêm
-            ram:
+            <?= get_field('title_1') ?? '' ?>
         </p>
-        <p>
-            <span style="padding-right: 20px;">+</span>
-            <span>Thuê <span style="font-weight: 700; color: #00ccff;">6 tháng</span></span>
-            <span>:</span>
-            <span>Tặng thêm <span style="font-weight: 700; color: #00ccff;">16GB ram</span></span>
-        </p>
-        <p>
-            <span style="padding-right: 20px;">+</span>
-            <span>Thuê từ <span style="font-weight: 700; color: #00ccff;">12 tháng</span></span>
-            <span>:</span>
-            <span>Tặng thêm <span style="font-weight: 700; color: #00ccff;">32GB ram</span></span>
-        </p>
+        <?php while (have_rows('table_2', get_queried_object_id())):
+            the_row(); ?>
+            <p>
+                <span style="padding-right: 20px;">+</span>
+                <span>Thuê <span style="font-weight: 700; color: #00ccff;"><?= get_sub_field('rent') ?></span></span>
+                <span>:</span>
+                <span>Tặng thêm <span style="font-weight: 700; color: #00ccff;"><?= get_sub_field('gift') ?></span></span>
+            </p>
+        <?php endwhile; ?>
     </div>
     <?php
 }

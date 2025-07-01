@@ -1,5 +1,5 @@
+</main>
 <?php
-
 /**
  * The template for displaying the footer.
  *
@@ -7,53 +7,250 @@
  */
 
 global $flatsome_opt;
+$bkg = get_field('bg_footer', 'option');
 
+$bg_sty = '';
+
+if ($bkg) {
+
+    $bg_sty = 'style="background-image: url(' . $bkg . ' )"';
+
+}
+// $footer = get_field('footer', 'option');
+// echo '<pre>';
+// echo print_r($footer);
+// echo '<pre>';
+// $footer_left = get_field('footer_left', 'option');
+// echo '<pre>';
+// echo print_r($footer_left);
+// echo '<pre>';
 ?>
-
-</main><!-- #main -->
-
-<footer id="footer" class="footer-wrapper">
-
-    <?php
-    // get_field('noi_dung', 'option');
-    ?>
-
-
-
-
-    <div class="container">
-        <div class="row">
-            <div class="footer_top"></div>
-            <?php while (have_rows('thong_tin', 'option')): the_row(); ?>
-                <div class="col medium-12">
-
-                    <div id="text-9" class="wd-widget widget footer-widget  widget_text">
-                        <div class="textwidget">
-                            <div class="footer-logo" style="margin-bottom: 10px; text-align: center;"><img style="max-width: 80%;" src="<?= get_sub_field('logo') ?>"></div>
-                            <p class="widget-title" style="text-align: center;"><?= get_sub_field('thuong_hieu') ?></p>
-                            <div class="widget-title_home_footer" style="text-align: center;">
-                                <p class=""><?= get_sub_field('dia_chi') ?></p>
-                            </div>
-                            <div class="" style="text-align: center;">
-                                <p class="widget-title_home_footer"><?= get_sub_field('trang_web') ?></p>
-                            </div>
-
-                            <div class="footer-social" style="text-align: center;">
-                                <?php while (have_rows('mang_xa_hoi', 'option')): the_row(); ?>
-                                    <a target="_blank" href="<?= get_sub_field('duong_link') ?>"><img src="<?= get_sub_field('anh') ?>"></a>
-                                <?php endwhile; ?>
+<footer id="footer" class="footer-wrapper" <?= $bg_sty ?>>
+    <div class="row st6_add_footer">
+        <div class="col medium-6 small-12 large-5">
+            <div class="col-inner footer-left">
+                <?php
+                if (get_field('footer_left', 'option')):
+                    while (have_rows('footer_left', 'option')):
+                        the_row();
+                        echo get_sub_field('link');
+                        ?>
+                        <a href="<?= get_sub_field('link_logo') ?>">
+                            <img style="margin-bottom: 20px;" src="<?= get_sub_field('logo') ?>" alt="">
+                        </a>
+                        <?php
+                    endwhile;
+                endif;
+                ?>
+                <p>
+                    Số ĐKKD: 0104850587, cấp ngày 10/8/2010, tại sở KHĐT Hà Nội
+                </p>
+                <p>Địa chỉ trụ sở: BT2-VT18, Khu nhà ở Xa La, Phường Phúc La, Quận Hà Đông, Thành phố Hà Nội, Việt Nam
+                </p>
+                <p>Chịu trách nhiệm nội dung: Giám đốc Thịnh Văn Hạnh</p>
+                <p>Copyright © Since 2010 BKNS, All rights reserved</p>
+                <p>Sử dụng dịch vụ tại BKNS.VN có nghĩa là bạn đồng ý với Quy định sử dụng của chúng tôi.</p>
+                <div class="row">
+                    <div class="col medium-4 small-4 large-4">
+                        <div class="col-inner">
+                            <div class="img has-hover x md-x lg-x y md-y lg-y">
+                                <a class="" href="#" target="_blank" rel="noopener noreferrer">
+                                    <div class="img-inner box-shadow-5-hover dark"
+                                        style="background-color: white; padding: 10px; border-radius: 10px;">
+                                        <img loading="lazy" decoding="async" width="184" height="50"
+                                            src="http://landing01.com/wp-content/uploads/2025/07/footer_left_child_2.webp"
+                                            class="attachment-large size-large" alt="">
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
-
+                    <div class="col medium-4 small-4 large-4">
+                        <div class="col-inner">
+                            <div class="img has-hover x md-x lg-x y md-y lg-y">
+                                <a class="" href="#" target="_blank" rel="noopener noreferrer">
+                                    <div class="img-inner box-shadow-5-hover dark"
+                                        style="background-color: white; padding: 10px; border-radius: 10px;">
+                                        <img loading="lazy" decoding="async" width="184" height="50"
+                                            src="http://landing01.com/wp-content/uploads/2025/07/footer_left_child_3.webp"
+                                            class="attachment-large size-large" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col medium-4 small-4 large-4">
+                        <div class="col-inner">
+                            <div class="img has-hover x md-x lg-x y md-y lg-y">
+                                <a class="" href="#" target="_blank" rel="noopener noreferrer">
+                                    <div class="img-inner box-shadow-5-hover dark"
+                                        style="background-color: white; padding: 10px; border-radius: 10px;">
+                                        <img loading="lazy" decoding="async" width="184" height="50"
+                                            src="http://landing01.com/wp-content/uploads/2025/07/footer_left_child_4.png"
+                                            class="attachment-large size-large" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
         </div>
-    <?php endwhile; ?>
-
-
-
-</footer><!-- .footer-wrapper -->
-</div><!-- #wrapper -->
+        <div class="col medium-6 small-12 large-4">
+            <div class="col-inner footer-center">
+                <h3>Công ty cổ phần giải pháp mạng Bạch Kim</h3>
+                <p>
+                    <img width="18px" src="http://landing01.com/wp-content/uploads/2025/07/footer_center_child_2.png"
+                        alt="">
+                    <span>Tầng 5, Tòa nhà 169, Nguyễn Ngọc Vũ, Phường Trung Hòa, Quận Cầu Giấy, TP Hà Nội.</span>
+                </p>
+                <p>
+                    <img width="18px" src="http://landing01.com/wp-content/uploads/2025/07/footer_center_child_2.png"
+                        alt="">
+                    <span>Lầu 2, B16 Khu nhà ở Thương Mại 319 Lý Thường Kiệt, Phường 15, Quận 11, Thành phố Hồ Chí Minh,
+                        Việt Nam.</span>
+                </p>
+                <p>
+                    <img width="18px" src="http://landing01.com/wp-content/uploads/2025/07/footer_center_child_1.png"
+                        alt="">
+                    <span>Tổng đài 24/7: 1900 63 68 09</span>
+                </p>
+                <p>
+                    <img width="18px" src="http://landing01.com/wp-content/uploads/2025/07/footer_center_child_1.png"
+                        alt="">
+                    <span>Tư vấn dịch vụ: 1800 646 884 (Miễn phí cước).</span>
+                </p>
+                <p>
+                    <img width="18px" src="http://landing01.com/wp-content/uploads/2025/07/footer_center_child_3.png"
+                        alt="">
+                    <span>Email liên hệ: info@bkns.vn</span>
+                </p>
+                <p>
+                    <img width="18px" src="http://landing01.com/wp-content/uploads/2025/07/footer_center_child_3.png"
+                        alt="">
+                    <span>Email phản hồi dịch vụ: gopy@bkns.vn.</span>
+                </p>
+            </div>
+        </div>
+        <div class="col medium-6 small-12 large-3">
+            <div class="col-inner footer-right">
+                <div class="footer-right-top">
+                    <h5>Liên hệ với chúng tôi:</h5>
+                    <div class="social-icons follow-icons">
+                        <a href="facebook" target="_blank" rel="noopener noreferrer nofollow" data-label="Facebook"
+                            class="icon primary button square facebook tooltip tooltipstered box-shadow-5-hover dark"
+                            style="border-radius: 10px; margin-right: 5px;">
+                            <i class="icon-facebook"></i>
+                        </a>
+                        <a href="pinterest" data-label="Pinterest" target="_blank" rel="noopener noreferrer nofollow"
+                            class="icon primary button square pinterest tooltip tooltipstered box-shadow-5-hover dark"
+                            style="border-radius: 10px; margin-right: 5px;">
+                            <i class="icon-pinterest"></i>
+                        </a>
+                        <a href="linkedin" data-label="LinkedIn" target="_blank" rel="noopener noreferrer nofollow"
+                            class="icon primary button square linkedin tooltip tooltipstered box-shadow-5-hover dark"
+                            style="border-radius: 10px; margin-right: 5px;">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                        <a href="youtebe" data-label="YouTube" target="_blank" rel="noopener noreferrer nofollow"
+                            class="icon primary button square youtube tooltip tooltipstered box-shadow-5-hover dark"
+                            style="border-radius: 10px; margin-right: 5px;">
+                            <i class="icon-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-right-center">
+                    <h5>Zalo Offcial Account của hệ thống</h5>
+                    <span>
+                        <a target="_blank" href="#">
+                            <img width="80px"
+                                src="http://landing01.com/wp-content/uploads/2025/07/footer_right_child_1.webp" alt="">
+                        </a>
+                    </span>
+                    <span>
+                        <a target="_blank" href="#">
+                            <img width="80px"
+                                src="http://landing01.com/wp-content/uploads/2025/07/footer_right_child_1.webp" alt="">
+                        </a>
+                    </span>
+                </div>
+                <div class="footer-right-bottom">
+                    <div class="row align-middle">
+                        <div class="col medium-4 small-4 large-4">
+                            <div class="col-inner text-center">
+                                <div class="img has-hover x md-x lg-x y md-y lg-y">
+                                    <a class="" href="#" target="_blank" rel="noopener noreferrer">
+                                        <div class="img-inner dark">
+                                            <img src="http://landing01.com/wp-content/uploads/2025/07/footer_right_child_2.webp"
+                                                class="footer-right-bottom-img">
+                                        </div>
+                                    </a>
+                                    <style>
+                                        .footer-right-bottom-img {
+                                            width: 80%;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col medium-4 small-4 large-4">
+                            <div class="col-inner text-center">
+                                <div class="img has-hover x md-x lg-x y md-y lg-y">
+                                    <a class="" href="#" target="_blank" rel="noopener noreferrer">
+                                        <div class="img-inner dark">
+                                            <img src="http://landing01.com/wp-content/uploads/2025/07/footer_right_child_3.webp"
+                                                class="footer-right-bottom-img">
+                                        </div>
+                                    </a>
+                                    <style>
+                                        .footer-right-bottom-img {
+                                            width: 80%;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col medium-4 small-4 large-4">
+                            <div class="col-inner text-center">
+                                <div class="img has-hover x md-x lg-x y md-y lg-y">
+                                    <a class="" href="#" target="_blank" rel="noopener noreferrer">
+                                        <div class="img-inner dark">
+                                            <img src="http://landing01.com/wp-content/uploads/2025/07/footer_right_child_4.webp"
+                                                class="footer-right-bottom-img">
+                                        </div>
+                                    </a>
+                                    <style>
+                                        .footer-right-bottom-img {
+                                            width: 80%;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col medium-4 small-4 large-4">
+                            <div class="col-inner text-center">
+                                <div class="img has-hover x md-x lg-x y md-y lg-y">
+                                    <a class="" href="#" target="_blank" rel="noopener noreferrer">
+                                        <div class="img-inner dark">
+                                            <img src="http://landing01.com/wp-content/uploads/2025/07/footer_right_child_5.webp"
+                                                class="footer-right-bottom-img">
+                                        </div>
+                                    </a>
+                                    <style>
+                                        .footer-right-bottom-img {
+                                            width: 80%;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
 <?php wp_footer(); ?>
 </body>
 

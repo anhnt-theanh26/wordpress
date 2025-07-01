@@ -14,8 +14,10 @@ section.bg-change-color {
     font-size: 37px;
     text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
     font-weight: 700;
-    top: 59%;
-    left: 25%;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-45%, 30%);
 }
 
 .st2-btn-click {
@@ -27,8 +29,8 @@ section.bg-change-color {
 .st2-title-black {
     display: flex;
     justify-content: flex-end;
-    font-size: 25px;
-    /* font-size: 20px; */
+    /* font-size: 25px; */
+    font-size: 23px;
     cursor: pointer;
 }
 
@@ -47,10 +49,9 @@ section.bg-change-color {
 /* section 3 */
 /* top  */
 .st3-bg-img {
-    background-image: url('http://landing01.com/wp-content/uploads/2025/06/Group-50-1.png');
-    margin-top: -150px;
-    background-size: 100% 100%;
-    padding-bottom: 100px !important;
+        margin-top: -150px;
+        background-size: 100% 100%;
+        padding-bottom: 100px !important;
 }
 
 .st3-img-top {
@@ -66,7 +67,9 @@ section.bg-change-color {
     text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
     font-weight: 700;
     top: 50%;
-    left: 43%;
+    left: 54%;
+    width: 35%;
+    transform: translate(-45%, 0%);
 }
 
 .st3-tab ul>li>a:before {
@@ -199,7 +202,6 @@ li {
 /* section 4 */
 /* top  */
 .st4-bg-img {
-    background-image: url('http://landing01.com/wp-content/uploads/2025/06/Group-53-1.png');
     margin-top: -200px;
     background-size: 100% 100%;
 }
@@ -215,8 +217,10 @@ li {
     font-size: 37px;
     text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
     font-weight: 700;
-    top: 55%;
-    left: 25%;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-43%, 0%);
 }
 
 .st4-img-top-2 {
@@ -230,8 +234,10 @@ li {
     font-size: 37px;
     text-shadow: -2px -2px 0 #03A9F4, 2px -2px 0 #00b0ff, -2px 2px 0 #03A9F4, 2px 2px 0 #03A9F4;
     font-weight: 700;
-    top: 8%;
-    left: 36%;
+    top: 50%;
+    left: 54%;
+    width: 35%;
+    transform: translate(-60%, -65%);
 }
 
 .st4-table tr:nth-child(odd) {
@@ -281,7 +287,6 @@ li {
 
 /* section 5 */
 .st5-bg-img {
-    background-image: url('http://landing01.com/wp-content/uploads/2025/06/Vector.png');
     background-size: 100% 100%;
     margin-top: -1px;
 }
@@ -293,8 +298,10 @@ li {
     font-size: 37px;
     text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
     font-weight: 700;
-    top: 48%;
-    left: 28%;
+    top: 50%;
+    left: 60%;
+    width: 60%;
+    transform: translate(-60%, -10%);
 }
 
 .st5-tab-item {
@@ -353,6 +360,11 @@ li {
     font-size: 18px;
 }
 
+.tab-content-left span {
+    color: #009DFF;
+}
+
+
 .tab-content-left-title {
     text-align: center;
     color: red;
@@ -377,13 +389,12 @@ li {
 
 /* section 6  */
 
-.st6-bg-img {
-    background-image: url('http://landing01.com/wp-content/uploads/2025/06/Asset-1@3x-1.png');
-    background-size: 100% 100%;
+#footer{
+    background-size: cover;
 }
 
 .st6_add_footer {
-    margin: 50px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 .footer-left p {
@@ -409,9 +420,11 @@ li {
     color: black;
     font-size: 15px;
 }
-.footer-right h5{
+
+.footer-right h5 {
     color: black;
 }
+
 .footer-right-bottom {
     margin-top: 20px;
 }
