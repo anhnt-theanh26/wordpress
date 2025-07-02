@@ -12,7 +12,7 @@ function st5_add_tab()
                 ?>
                 <li id="tab-tab-<?= $i ?>-title" class="tab has-icon <?= $i == 1 ? 'active' : '' ?>" role="presentation">
                     <a href="#tab_tab-<?= $i ?>-title" role="tab" aria-selected="true" aria-controls="tab_tab-<?= $i ?>-title">
-                        <div class="st5-tab-item">
+                        <div class="st5-tab-item <?= $i == 1 ? 'st5-tab-color-active' : '' ?>">
                             <img src="<?= get_sub_field('img') ?>" alt="<?= get_sub_field('name') ?>">
                             <span><?= get_sub_field('name') ?></span>
                         </div>
@@ -62,7 +62,7 @@ function st5_add_tab()
                                 ?>
                                 <div class="btn-click-tab">
                                     <a target="_blank" href="<?= get_sub_field('link') ?>">
-                                        <button
+                                        <button class="glow-button"
                                             style="border: 1px solid white; color: white; border-radius: 50px; background: linear-gradient(to right, #00E0FF, #005CFF);">
                                             ĐĂNG KÝ NGAY
                                         </button>

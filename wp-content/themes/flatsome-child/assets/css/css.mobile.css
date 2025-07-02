@@ -3,12 +3,11 @@
 
     /* section 2 */
     .st2-title-top p {
-        position: sticky !important;
-        font-size: 30px;
-    }
-
-    .st2-img-top {
-        display: none;
+        position: static !important;
+        top: auto;
+        left: auto;
+        width: auto;
+        transform: none;
     }
 
     .st2-title-black {
@@ -20,27 +19,42 @@
     }
 
     .st3-title-top p {
-        position: static !important;
-        font-size: 30px;
         margin-top: 120px !important;
+        margin-bottom: 0px;
+        position: static !important;
+        top: auto;
+        left: auto;
+        width: auto;
+        transform: none;
     }
 
     /* section 4 */
     .st4-title-top-1 p {
+        margin-bottom: 0px;
         position: static !important;
-        font-size: 30px;
+        top: auto;
+        left: auto;
+        width: auto;
+        transform: none;
     }
 
     .st4-title-top-2 p {
+        margin-bottom: 0px;
         position: static !important;
-        font-size: 30px;
-        margin-top: -50px;
+        top: auto;
+        left: auto;
+        width: auto;
+        transform: none;
     }
 
     /* section 5 */
     .st5-title-top p {
+        margin-bottom: 0px;
         position: static !important;
-        font-size: 30px;
+        top: auto;
+        left: auto;
+        width: auto;
+        transform: none;
     }
 
 }

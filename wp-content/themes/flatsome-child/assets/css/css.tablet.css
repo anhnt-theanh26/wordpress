@@ -4,15 +4,14 @@
     /* section 2 */
     .st2-title-top p {
         font-size: 25px;
-        top: 58%;
-        left: 23%;
+        top: 50%;
+        left: 50%;
+        width: 70%;
+        transform: translate(-45%, 30%);
     }
 
-    /* .st2-text-black {
-        font-size: 19px;
-    } */
     .st2-title-black {
-        font-size: 13px;
+        font-size: 17px;
         margin-top: 10px;
     }
 
@@ -21,41 +20,39 @@
     }
 
     /* section 3 */
-    /* .st3-title-top {
-        position: absolute;
-        color: #FFFB78;
-        font-style: italic;
-        font-size: 30px;
-        text-shadow: -2px -2px 0 #FF6A00, 2px -2px 0 #FF6A00, -2px 2px 0 #FF6A00, 2px 2px 0 #FF6A00;
-        font-weight: 700;
-        top: 45%;
-        left: 40%;
-    } */
 
     .st3-title-top p {
         font-size: 25px;
-        top: 49%;
-        left: 42%;
+        top: 50%;
+        left: 54%;
+        width: 35%;
+        transform: translate(-45%, 0%);
     }
 
     /* selection 4 */
     .st4-title-top-1 p {
         font-size: 23px;
-        top: 55%;
-        left: 27%;
+        top: 50%;
+        left: 50%;
+        width: 60%;
+        transform: translate(-43%, 0%);
     }
 
     .st4-title-top-2 p {
         font-size: 23px;
-        top: 15%;
-        left: 40%;
+        top: 50%;
+        left: 54%;
+        width: 35%;
+        transform: translate(-60%, -65%);
     }
 
     /* section 5 */
     .st5-title-top p {
         font-size: 20px;
-        top: 48%;
-        left: 32%;
+        top: 50%;
+        left: 60%;
+        width: 60%;
+        transform: translate(-60%, -10%);
     }
 
 }

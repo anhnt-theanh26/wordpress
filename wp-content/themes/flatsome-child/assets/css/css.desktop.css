@@ -1,6 +1,7 @@
 /* section 2 */
 section.bg-change-color {
     background: linear-gradient(to bottom, #62EAFF, #B0FFF2);
+    margin-top: -1px;
 }
 
 .st2-img-top {
@@ -29,9 +30,9 @@ section.bg-change-color {
 .st2-title-black {
     display: flex;
     justify-content: flex-end;
-    /* font-size: 25px; */
     font-size: 23px;
     cursor: pointer;
+    font-weight: 100 !important;
 }
 
 .st2-title-black p {
@@ -49,9 +50,9 @@ section.bg-change-color {
 /* section 3 */
 /* top  */
 .st3-bg-img {
-        margin-top: -150px;
-        background-size: 100% 100%;
-        padding-bottom: 100px !important;
+    margin-top: -150px;
+    background-size: 100% 100%;
+    padding-bottom: 100px !important;
 }
 
 .st3-img-top {
@@ -285,10 +286,26 @@ li {
     text-align: center;
 }
 
+.st4-table {
+    position: relative;
+}
+
+.st4-table .st4-img-table {
+    position: absolute;
+    transform: translateX(150%);
+    border-radius: 100%;
+    width: 160px;
+    box-shadow: 0 2px 16px rgb(0 0 0 / 10%) !important;
+}
+
 /* section 5 */
 .st5-bg-img {
     background-size: 100% 100%;
     margin-top: -1px;
+}
+
+.st5-tab-color-active span {
+    color: #009DFF !important;
 }
 
 .st5-title-top p {
@@ -354,10 +371,13 @@ li {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 60%;
     transform: translate(-20%, -50%);
     color: black;
     font-weight: bold;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 .tab-content-left span {
@@ -389,7 +409,7 @@ li {
 
 /* section 6  */
 
-#footer{
+#footer {
     background-size: cover;
 }
 
@@ -397,12 +417,17 @@ li {
     padding: 50px 0px 50px 0px;
 }
 
-.footer-left p {
+.footer-left .introduct,
+.footer-left .introduct a {
     margin: 0;
     padding: 0;
     margin-bottom: 10px;
     color: black;
     font-size: 15px;
+}
+
+.footer-left .introduct a:hover {
+    color: #009DFF;
 }
 
 .footer-left-bootom .col {
@@ -416,9 +441,14 @@ li {
     color: black;
 }
 
-.footer-center p {
+.footer-center p,
+.footer-center p span a {
     color: black;
     font-size: 15px;
+}
+
+.footer-center p span a:hover {
+    color: #009DFF;
 }
 
 .footer-right h5 {
@@ -427,4 +457,41 @@ li {
 
 .footer-right-bottom {
     margin-top: 20px;
+}
+
+.footer-right-bottom-img {
+    width: 80%;
+}
+
+/*  */
+.glow-button {
+    position: relative;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(to right, #00E0FF, #005CFF);
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.glow-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-25deg);
+    transition: all 0.5s ease;
+}
+
+.glow-button:hover::before {
+    left: 125%;
+}
+
+.glow-button:hover {
+    transform: scale(1.03);
 }

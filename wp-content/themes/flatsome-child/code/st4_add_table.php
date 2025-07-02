@@ -24,10 +24,11 @@ function st4_add_table()
                 endwhile;
                 ?>
             </tbody>
+            <img class="st4-img-table" src="<?= get_field('img_sale') ?>" alt="">
         </table>
     </div>
     <a target="_blank" href="<?= get_field('link') ?>">
-        <button
+        <button class="glow-button"
             style="border: 1px solid white; color: white; border-radius: 50px; background: linear-gradient(to right, #00E0FF, #005CFF);">
             ĐĂNG KÝ NGAY
         </button>

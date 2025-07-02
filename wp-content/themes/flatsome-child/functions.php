@@ -14,7 +14,7 @@ define('DOMAIN', 'flatsome');
 
 function load_css()
 {
-    wp_enqueue_script('my-js', get_stylesheet_directory_uri() . '/assets/js/my-js.js');
+    wp_enqueue_script('my-js', get_stylesheet_directory_uri() . '/assets/js/my-js.js', array(), '', true);
     wp_enqueue_style('owl-theme-css', get_stylesheet_directory_uri() . '/assets/css/owl.carousel.min.css');
     wp_enqueue_style('owl-css', get_stylesheet_directory_uri() . '/assets/css/owl.carousel.min.css');
     wp_enqueue_script('jquery');

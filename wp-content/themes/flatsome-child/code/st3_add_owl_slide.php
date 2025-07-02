@@ -35,7 +35,7 @@ function st3_add_owl_slide($attr)
                 </div>
                 <div class="slide-bottom">
                     <a target="_blank" href="<?= get_sub_field('link') ?? '' ?>">
-                        <button>
+                        <button class="glow-button">
                             ĐĂNG KÝ NGAY
                         </button>
                     </a>
