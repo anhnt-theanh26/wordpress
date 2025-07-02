@@ -32,3 +32,4 @@ include 'code/st3_add_owl_slide.php';
 include 'code/st4_add_table.php';
 include 'code/st5_add_tab.php';
 include 'code/st6_add_footer.php';
+include 'code/post-type.php';
