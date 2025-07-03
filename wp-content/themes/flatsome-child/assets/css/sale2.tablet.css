@@ -1,0 +1,21 @@
+/* Tablet (768px – 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .sale2-st2-title-top p {
+        font-size: 22px;
+        margin-top: 30px !important;
+    }
+
+    .sale2-st2-title-top-highlight {
+        font-size: 20px;
+        width: 65%;
+    }
+
+    .item_sale2_st2_title {
+        transform: translate(9%, 53%);
+    }
+
+    .item_sale2_st2_content {
+        transform: translate(9%, -19%);
+    }
+}

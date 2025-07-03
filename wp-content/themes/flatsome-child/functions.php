@@ -18,11 +18,20 @@ function load_css()
     wp_enqueue_style('owl-theme-css', get_stylesheet_directory_uri() . '/assets/css/owl.carousel.min.css');
     wp_enqueue_style('owl-css', get_stylesheet_directory_uri() . '/assets/css/owl.carousel.min.css');
     wp_enqueue_script('jquery');
+    // js sale 1
     wp_enqueue_script('owl-js', get_stylesheet_directory_uri() . '/assets/js/owl.carousel.min.js');
-
+    // css sale 1
     wp_enqueue_style('css_desktop', get_stylesheet_directory_uri() . '/assets/css/css.desktop.css');
     wp_enqueue_style('css_mobile', get_stylesheet_directory_uri() . '/assets/css/css.mobile.css');
     wp_enqueue_style('css_tablet', get_stylesheet_directory_uri() . '/assets/css/css.tablet.css');
+
+    
+    // js sale 2
+    wp_enqueue_script('sale2_js', get_stylesheet_directory_uri() . '/assets/js/sale2.js');
+    // css sale 2
+    wp_enqueue_style('sale2_css_desktop', get_stylesheet_directory_uri() . '/assets/css/sale2.destop.css');
+    wp_enqueue_style('sale2_css_mobile', get_stylesheet_directory_uri() . '/assets/css/sale2.mobile.css');
+    wp_enqueue_style('sale2_css_tablet', get_stylesheet_directory_uri() . '/assets/css/sale2.tablet.css');
 }
 add_action('wp_enqueue_scripts', 'load_css');
 
@@ -33,3 +42,5 @@ include 'code/st4_add_table.php';
 include 'code/st5_add_tab.php';
 include 'code/st6_add_footer.php';
 include 'code/post-type.php';
+
+include 'code/sale2_st2_owl_carousel.php';

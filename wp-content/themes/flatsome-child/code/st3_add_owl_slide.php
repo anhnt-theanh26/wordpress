@@ -77,7 +77,6 @@ function st3_add_owl_slide($attr)
             })
         });
     </script>
-
     <?php
     return ob_get_clean();
 }

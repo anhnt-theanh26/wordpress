@@ -1,0 +1,21 @@
+/* Mobile (dưới 768px) */
+@media (max-width: 767px) {
+
+    .sale2-st2-title-top p {
+        font-size: 12px;
+        margin-top: 10px !important;
+    }
+
+    .sale2-st2-title-top-highlight {
+        font-size: 12px;
+        width: 65%;
+    }
+
+    .item_sale2_st2_title {
+        transform: translate(9%, 60%);
+    }
+
+    .item_sale2_st2_content {
+        transform: translate(9%, -18%);
+    }
+}
