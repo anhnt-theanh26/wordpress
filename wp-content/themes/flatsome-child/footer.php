@@ -12,6 +12,12 @@ $bg_sty = '';
 if ($bkg) {
     $bg_sty = 'style="background-image: url(' . $bkg . ' )"';
 }
+if (is_page('sale-he-bung-xoa-deal-cuc-da')) {
+    $bkg = get_field('footer_bg_sale_he', 'option');
+    if ($bkg) {
+        $bg_sty = 'style="background-image: url(' . $bkg . ' ); margin-top: -0px;"';
+    }
+}
 ?>
 <footer id="footer" class="footer-wrapper" <?= $bg_sty ?>>
     <div class="row st6_add_footer">
@@ -21,7 +27,7 @@ if ($bkg) {
                 if (get_field('footer_left', 'option')):
                     while (have_rows('footer_left', 'option')):
                         the_row();
-                        ?>
+                ?>
                         <a href="<?= get_sub_field('logo_link') ?>" target="_blank">
                             <img style="margin-bottom: 20px;" src="<?= get_sub_field('logo_web') ?>" alt="">
                         </a>
@@ -29,14 +35,14 @@ if ($bkg) {
 
                         while (have_rows('introduce', 'option')):
                             the_row();
-                            ?>
+                        ?>
                             <p class="introduct">
                                 <?= get_sub_field('introduce_attr') ?>
                                 <a href="<?= get_sub_field('introduce_link') !== '' ? get_sub_field('introduce_value') : '#' ?>">
                                     <?= get_sub_field('introduce_value') ?>
                                 </a>
                             </p>
-                            <?php
+                <?php
                         endwhile;
                     endwhile;
                 endif;
@@ -48,7 +54,7 @@ if ($bkg) {
                             the_row();
                             while (have_rows('company', 'option')):
                                 the_row();
-                                ?>
+                    ?>
                                 <div class="col medium-4 small-4 large-4">
                                     <div class="col-inner">
                                         <div class="img has-hover x md-x lg-x y md-y lg-y">
@@ -65,7 +71,7 @@ if ($bkg) {
                                         </div>
                                     </div>
                                 </div>
-                                <?php
+                    <?php
                             endwhile;
                         endwhile;
                     endif;
@@ -79,12 +85,12 @@ if ($bkg) {
                 if (get_field('footer_center', 'option')):
                     while (have_rows('footer_center', 'option')):
                         the_row();
-                        ?>
+                ?>
                         <h3><?= get_sub_field('company') !== '' ? get_sub_field('company') : '' ?></h3>
                         <?php
                         while (have_rows('address', 'option')):
                             the_row();
-                            ?>
+                        ?>
 
                             <p>
                                 <img width="18px" src="<?= get_sub_field('address_icon') ?>" alt="">
@@ -94,7 +100,7 @@ if ($bkg) {
                                         <?= get_sub_field('address_value') ?></a>
                                 </span>
                             </p>
-                            <?php
+                <?php
                         endwhile;
                     endwhile;
                 endif;
@@ -108,9 +114,9 @@ if ($bkg) {
                     if (get_field('footer_right', 'option')):
                         while (have_rows('footer_right', 'option')):
                             the_row();
-                            ?>
+                    ?>
                             <h5><?= get_sub_field('contact_title') ?></h5>
-                            <?php
+                    <?php
                         endwhile;
                     endif;
                     ?>
@@ -121,7 +127,7 @@ if ($bkg) {
                                 the_row();
                                 while (have_rows('contact', 'option')):
                                     the_row();
-                                    ?>
+                        ?>
                                     <a href="<?= strtolower(get_sub_field('contact_icon')) ?>" target="_blank"
                                         rel="noopener noreferrer nofollow"
                                         data-label="<?= strtolower(get_sub_field('contact_icon')) ?>"
@@ -129,7 +135,7 @@ if ($bkg) {
                                         style="border-radius: 10px; margin-right: 5px;">
                                         <i class="icon-<?= strtolower(get_sub_field('contact_icon')) ?>"></i>
                                     </a>
-                                    <?php
+                        <?php
                                 endwhile;
                             endwhile;
                         endif;
@@ -141,12 +147,12 @@ if ($bkg) {
                     if (get_field('footer_right', 'option')):
                         while (have_rows('footer_right', 'option')):
                             the_row();
-                            ?>
+                    ?>
                             <h5><?= get_sub_field('offcial_account_title') ?></h5>
                             <?php
                             while (have_rows('offcial_account', 'option')):
                                 the_row();
-                                ?>
+                            ?>
                                 <span>
                                     <a target="_blank"
                                         href="<?= get_sub_field('offcial_account_link') !== '' ? get_sub_field('offcial_account_link') : '#' ?>">
@@ -154,7 +160,7 @@ if ($bkg) {
                                             alt="<?= get_sub_field('offcial_account_title') ?>">
                                     </a>
                                 </span>
-                                <?php
+                    <?php
                             endwhile;
                         endwhile;
                     endif;
@@ -166,11 +172,11 @@ if ($bkg) {
                         if (get_field('footer_right', 'option')):
                             while (have_rows('footer_right', 'option')):
                                 the_row();
-                                ?>
+                        ?>
                                 <?php
                                 while (have_rows('company_register', 'option')):
                                     the_row();
-                                    ?>
+                                ?>
                                     <div class="col medium-4 small-4 large-4">
                                         <div class="col-inner text-center">
                                             <div class="img has-hover x md-x lg-x y md-y lg-y">
@@ -185,7 +191,7 @@ if ($bkg) {
                                             </div>
                                         </div>
                                     </div>
-                                    <?php
+                        <?php
                                 endwhile;
                             endwhile;
                         endif;

@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const tabs = document.querySelectorAll('.st5-tab-item');
     tabs.forEach(function (tab) {
         tab.addEventListener('click', function () {
-            console.log('hehe');
             tabs.forEach(t => t.classList.remove('st5-tab-color-active'));
             tab.classList.add('st5-tab-color-active');
         });

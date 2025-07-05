@@ -27,4 +27,11 @@ jQuery(document).ready(function ($) {
             }
         }
     });
+    const tabs = document.querySelectorAll('.sale2-st3-tab-item');
+    tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+            tabs.forEach(t => t.classList.remove('sale2_tab_active'));
+            tab.classList.add('sale2_tab_active');
+        });
+    });
 });

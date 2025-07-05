@@ -44,3 +44,4 @@ include 'code/st6_add_footer.php';
 include 'code/post-type.php';
 
 include 'code/sale2_st2_owl_carousel.php';
+include 'code/sale2_st3_tab.php';
